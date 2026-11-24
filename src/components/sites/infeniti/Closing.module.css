@@ -1,0 +1,515 @@
+/* ---------- Why (OverviewSection with tiles) ---------- */
+.why {
+  position: relative;
+  margin: 8rem 0;
+}
+
+@media (width >= 768px) {
+  .why {
+    margin: 12rem 0;
+  }
+}
+
+.topDivider {
+  margin: 0 0 2.5rem;
+  color: rgb(25 25 25 / 0.2);
+}
+
+@media (width >= 768px) {
+  .topDivider {
+    margin: 0 0 4.5rem;
+  }
+
+  .grid {
+    display: flex;
+  }
+
+  .left {
+    flex: 0 0 28%;
+  }
+}
+
+.left {
+  margin: 0 0 2rem;
+}
+
+.right {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.caption {
+  font-size: 1.4rem;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .caption {
+    font-size: 1.6rem;
+  }
+}
+
+.text {
+  max-width: 94%;
+  font-size: 2rem;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+
+@media (width >= 768px) {
+  .text {
+    max-width: 86%;
+    font-size: 2.56rem;
+  }
+}
+
+.tiles {
+  display: grid;
+  gap: 0.8rem;
+  margin: 2rem 0 0;
+}
+
+@media (width >= 768px) {
+  .tiles {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 1.6rem;
+    margin: 7.2rem 0 0;
+  }
+}
+
+.tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.2rem;
+  height: 20.8rem;
+  padding: 3rem;
+  border-radius: 2rem;
+  background: var(--surface);
+  transition: background 0.4s;
+}
+
+@media (width >= 768px) {
+  .tile {
+    grid-column: span 4;
+    height: 30rem;
+    padding: 4rem;
+  }
+
+  .tile:nth-child(n + 4) {
+    grid-column: span 6;
+  }
+}
+
+.highlighted {
+  background: var(--surface-brand);
+}
+
+.tileIcon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.highlighted .tileIcon {
+  color: #6f9418;
+}
+
+.tileText {
+  max-width: 32rem;
+  font-size: 2.4rem;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  opacity: 0.9;
+}
+
+@media (width >= 768px) {
+  .tileText {
+    font-size: 2.8rem;
+  }
+}
+
+.tileText strong {
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+@media (width >= 768px) {
+  .tileText strong {
+    font-size: 8rem;
+  }
+}
+
+.tileText small {
+  font-size: 1.4rem;
+  line-height: 110%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .tileText small {
+    font-size: 1.6rem;
+  }
+}
+
+/* ---------- FAQ-styled service list (inverse) ---------- */
+.faq {
+  position: relative;
+  padding: 8rem 0 0;
+  color: var(--paper);
+}
+
+@media (width >= 768px) {
+  .faq {
+    padding-top: 15rem;
+  }
+}
+
+.faqFill {
+  position: absolute;
+  inset: 0;
+  background: var(--ink);
+}
+
+@media (width >= 768px) {
+  .faqFill {
+    border-radius: 8rem 8rem 0 0;
+  }
+}
+
+.faqContent {
+  position: relative;
+  padding-bottom: 8rem;
+}
+
+@media (width >= 768px) {
+  .faqContent {
+    padding-bottom: 12rem;
+  }
+}
+
+.faqHead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 0 4rem;
+}
+
+@media (width >= 768px) {
+  .faqHead {
+    margin: 0 0 12rem;
+  }
+}
+
+.faqHeader {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+
+@media (width >= 768px) {
+  .faqHeader {
+    font-size: 8rem;
+  }
+}
+
+.faqDivider {
+  position: relative;
+  z-index: 2;
+  color: rgb(248 248 248 / 0.2);
+}
+
+.faqItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 4rem 0;
+  font-size: 2.4rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  transition: color 0.4s;
+}
+
+.faqIndex {
+  flex: 0 0 5rem;
+  font-size: 1.6rem;
+  opacity: 0.4;
+}
+
+.faqTitle {
+  flex: 1;
+}
+
+.faqArrow {
+  flex-shrink: 0;
+  width: 2.4rem;
+  height: 2.4rem;
+  transition:
+    transform 0.5s,
+    color 0.4s;
+}
+
+.faqArrow svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (pointer: fine) {
+  .faqItem:hover {
+    color: var(--brand);
+  }
+
+  .faqItem:hover .faqArrow {
+    transform: rotate(45deg);
+  }
+}
+
+/* ---------- OutroSection ---------- */
+.outro {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 55.4rem;
+  overflow: hidden;
+  color: var(--paper);
+  background: var(--ink);
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .outro {
+    height: 69.2rem;
+  }
+}
+
+.outroBg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.outroBg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(var(--ink), rgb(25 25 25 / 0) 35%);
+}
+
+.outroBg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.outroContent {
+  position: relative;
+}
+
+.outroHeader {
+  font-size: 5rem;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+}
+
+@media (width >= 768px) {
+  .outroHeader {
+    max-width: 90rem;
+    margin: 0 auto;
+    font-size: 8rem;
+  }
+}
+
+.outroText {
+  margin: 3.2rem auto 0;
+  font-size: 2rem;
+  line-height: 130%;
+}
+
+@media (width >= 768px) {
+  .outroText {
+    max-width: 65rem;
+    font-size: 2.4rem;
+    line-height: 140%;
+  }
+}
+
+.outroAction {
+  margin: 3.2rem 0 0;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  position: relative;
+  padding: 6rem 0;
+  overflow: hidden;
+  color: var(--paper);
+  background: var(--ink);
+}
+
+@media (width >= 768px) {
+  .footer {
+    padding: 12rem 0;
+  }
+}
+
+.footerGrid {
+  display: grid;
+  gap: 6rem;
+}
+
+@media (width >= 768px) {
+  .footerGrid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+.locations {
+  display: grid;
+  gap: 6rem;
+}
+
+@media (width >= 768px) {
+  .locations {
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 10rem;
+  }
+}
+
+.locationAction {
+  margin: 0 0 2rem;
+}
+
+@media (width >= 768px) {
+  .locationAction {
+    margin-bottom: 2.4rem;
+  }
+}
+
+.locationCaption {
+  display: inline;
+  margin: 0 1rem 0 0;
+  font-size: 1.6rem;
+  line-height: 130%;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.locationAddress {
+  display: inline;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.navs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (width >= 768px) {
+  .navs {
+    grid-template-columns: repeat(2, auto);
+    justify-content: end;
+    gap: 0 6.4rem;
+    text-align: right;
+  }
+}
+
+.nav {
+  padding: 1rem 0;
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+@media (width >= 768px) {
+  .nav {
+    padding: 1.2rem 0;
+    font-size: 2.4rem;
+  }
+}
+
+@media (pointer: fine) {
+  .nav:hover {
+    color: var(--brand);
+  }
+}
+
+.bgrid {
+  display: grid;
+  gap: 6rem;
+  margin: 6rem 0 0;
+}
+
+@media (width >= 768px) {
+  .bgrid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6.7rem 0 0;
+  }
+}
+
+.legal {
+  order: 1;
+}
+
+@media (width >= 768px) {
+  .legal {
+    order: initial;
+  }
+}
+
+.legalLink {
+  font-size: 1.4rem;
+  line-height: 110%;
+  transition: color 0.3s;
+}
+
+@media (width >= 768px) {
+  .legalLink {
+    font-size: 1.6rem;
+    line-height: 130%;
+  }
+}
+
+.legalLink:hover {
+  color: var(--brand);
+}
+
+.copy {
+  display: inline-block;
+  margin: 0 0 0 2.4rem;
+  font-size: 1.4rem;
+  line-height: 110%;
+  opacity: 0.5;
+}
+
+@media (width >= 768px) {
+  .copy {
+    font-size: 1.6rem;
+    line-height: 130%;
+  }
+}
+
+.socials {
+  display: flex;
+  gap: 1.6rem;
+}
+
+@media (width >= 768px) {
+  .socials {
+    gap: 2.4rem;
+  }
+}

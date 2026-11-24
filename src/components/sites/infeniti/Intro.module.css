@@ -1,0 +1,283 @@
+/* ---------- TopheadSection ---------- */
+.tophead {
+  position: relative;
+  padding: 12rem 0 6rem;
+}
+
+@media (width >= 768px) {
+  .tophead {
+    padding: 20rem 0 10rem;
+  }
+}
+
+.eyebrow {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 110%;
+}
+
+@media (width >= 768px) {
+  .eyebrow {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+.eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0 1rem 0.2rem 0;
+  border-radius: 50%;
+  background: var(--brand);
+  vertical-align: middle;
+}
+
+.title {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+@media (width >= 768px) {
+  .title {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 9rem;
+    text-align: center;
+  }
+}
+
+.text {
+  max-width: 84rem;
+  margin: 3.2rem auto 0;
+  font-size: 2rem;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+}
+
+@media (width >= 768px) {
+  .text {
+    font-size: 2.4rem;
+    line-height: 120%;
+    text-align: center;
+  }
+}
+
+/* ---------- PreviewSection ---------- */
+.preview {
+  position: relative;
+  z-index: 1;
+}
+
+.main {
+  position: relative;
+  display: grid;
+  aspect-ratio: 355 / 400;
+  overflow: hidden;
+  border-radius: 2rem;
+  color: var(--paper);
+  background: var(--ink);
+  transform: translateZ(0);
+}
+
+@media (width >= 768px) {
+  .main {
+    aspect-ratio: 1920 / 1080;
+  }
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+}
+
+.media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem 3rem;
+  background: linear-gradient(90deg, rgb(25 25 25 / 0.75), rgb(25 25 25 / 0.15));
+}
+
+@media (width >= 768px) {
+  .content {
+    padding: 6rem 16rem;
+  }
+}
+
+.info {
+  display: grid;
+  gap: 1.6rem;
+  max-width: 76rem;
+}
+
+.header {
+  font-size: 4.2rem;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+
+@media (width >= 768px) {
+  .header {
+    font-size: 8rem;
+    line-height: 100%;
+  }
+}
+
+.previewText {
+  font-size: 2rem;
+  line-height: 130%;
+}
+
+@media (width >= 768px) {
+  .previewText {
+    font-size: 3.2rem;
+    line-height: 120%;
+  }
+}
+
+.action {
+  position: relative;
+  z-index: 2;
+  align-self: flex-start;
+}
+
+.label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 5;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--brand);
+  border-radius: 10rem;
+  color: var(--brand);
+  font-size: 1.4rem;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .label {
+    top: 4.8rem;
+    left: 5.5rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 2.1rem;
+  }
+}
+
+/* ---------- OverviewSection ---------- */
+.overview {
+  position: relative;
+  margin: 8rem 0 4rem;
+}
+
+@media (width >= 768px) {
+  .overview {
+    margin: 12rem 0;
+  }
+
+  .grid {
+    display: flex;
+  }
+
+  .left {
+    flex: 0 0 28%;
+  }
+}
+
+.left {
+  margin: 0 0 2rem;
+}
+
+.right {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.caption {
+  font-size: 1.4rem;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .caption {
+    font-size: 1.6rem;
+  }
+}
+
+.overviewText {
+  max-width: 94%;
+  font-size: 2rem;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+
+@media (width >= 768px) {
+  .overviewText {
+    max-width: 86%;
+    font-size: 2.56rem;
+  }
+}
+
+.links {
+  margin: 2rem -1rem 0;
+}
+
+@media (width >= 768px) {
+  .links {
+    margin: 4rem -2rem 0;
+  }
+}
+
+.link {
+  position: relative;
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media (width >= 768px) {
+  .link {
+    margin: 0 2rem;
+    padding: 0.7rem 0;
+    font-size: 2rem;
+  }
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 1px;
+  background: var(--brand);
+  transform-origin: right;
+  transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@media (pointer: fine) {
+  .link:hover::before {
+    transform: scaleX(0);
+  }
+}
