@@ -1,0 +1,874 @@
+/* cuberto.com/about. Values copied from the source's TopheadSection, PreviewSection, OverviewSection,
+   SplitshowSection, FeedbackSection and SummarySection styles. */
+
+@media (width < 768px) {
+  .desktopBreak,
+  .desktopOnly {
+    display: none;
+  }
+}
+
+/* ---------- TopheadSection ---------- */
+.tophead {
+  position: relative;
+  padding: 12rem 0 6rem;
+}
+
+@media (width >= 768px) {
+  .tophead {
+    padding: 20rem 0 10rem;
+  }
+}
+
+.title {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+@media (width >= 768px) {
+  .title {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 9rem;
+    text-align: center;
+  }
+}
+
+/* ---------- PreviewSection ---------- */
+.preview {
+  position: relative;
+  z-index: 1;
+}
+
+.main {
+  position: relative;
+  aspect-ratio: 1920 / 1080;
+  overflow: hidden;
+  border-radius: 2rem;
+  transform: translateZ(0);
+}
+
+.mainLg {
+  aspect-ratio: 355 / 400;
+}
+
+@media (width >= 768px) {
+  .mainLg {
+    aspect-ratio: 1920 / 1080;
+  }
+}
+
+/* Hidden until PreviewFrame reveals it. */
+.main {
+  opacity: 0;
+}
+
+.mainShown {
+  opacity: 1;
+  transition: opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.mainEnter {
+  animation:
+    previewOpen 2.5s var(--ease-out-expo) 0.1s both,
+    previewFade 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s both;
+}
+
+@keyframes previewOpen {
+  from {
+    clip-path: inset(5% 10% round 2rem);
+    transform: scale(0.9);
+  }
+
+  to {
+    clip-path: inset(0% 0% round 2rem);
+    transform: scale(1);
+  }
+}
+
+@keyframes previewFade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.media {
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0, -10%, 0) scale(1.05);
+  will-change: transform;
+}
+
+.media img,
+.media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------- OverviewSection ---------- */
+.overview {
+  position: relative;
+  margin: 8rem 0;
+}
+
+@media (width >= 768px) {
+  .overview {
+    margin: 12rem 0;
+  }
+}
+
+/* An overview without a text grid (partners) hands its spacing to the next section. */
+.noGrid {
+  margin-bottom: 4rem;
+}
+
+.noGrid + section {
+  margin-top: 0;
+}
+
+@media (width >= 768px) {
+  .noGrid {
+    margin-bottom: 12rem;
+  }
+}
+
+.header {
+  margin: 0 0 4rem;
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+
+@media (width >= 768px) {
+  .header {
+    margin: 0 0 6rem;
+    font-size: 8rem;
+  }
+}
+
+.divider {
+  margin: 2rem 0 2.5rem;
+  color: rgb(0 0 0 / 0.2);
+}
+
+@media (width >= 768px) {
+  .divider {
+    margin: 6rem 0 4.5rem;
+  }
+
+  .grid {
+    display: flex;
+  }
+
+  .left {
+    flex: 0 0 28%;
+  }
+}
+
+.left {
+  margin: 0 0 2rem;
+}
+
+.right {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.caption {
+  margin: 0 0 2.4rem;
+}
+
+@media (width >= 768px) {
+  .caption {
+    margin: 0 0 4.5rem;
+  }
+}
+
+.caption h2,
+.caption h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .caption h2,
+  .caption h3 {
+    font-size: 1.6rem;
+  }
+}
+
+.text {
+  max-width: 94%;
+  font-size: 2rem;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+
+@media (width >= 768px) {
+  .text {
+    max-width: 86%;
+    font-size: 2.56rem;
+  }
+}
+
+.text p {
+  margin-bottom: 1em;
+}
+
+.text p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Links keep their underline once SplitReveal wraps each word in inline-blocks. */
+.text a,
+.text a > span > span {
+  text-decoration: underline 1px;
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 0.2s;
+}
+
+.text a:hover,
+.text a:hover > span > span {
+  text-decoration-color: transparent;
+}
+
+/* Elastic divider draw-in. */
+.draw svg {
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.drawShown svg {
+  transform: none;
+  transition: transform 3s var(--ease-out-expo);
+}
+
+.counters {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  gap: 2.6rem;
+  margin-top: 4rem;
+}
+
+@media (width >= 768px) {
+  .counters {
+    gap: 6.6rem;
+    margin-top: 10rem;
+  }
+}
+
+@media (width < 768px) {
+  .counter:first-child {
+    display: none;
+  }
+}
+
+/* Counters rise 70px (2s expo.out) and fade in (1s), 0.1s apart. */
+.counter {
+  opacity: 0;
+  transform: translateY(70px);
+}
+
+.countersShown .counter {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(var(--i) * 0.1s),
+    transform 2s var(--ease-out-expo) calc(var(--i) * 0.1s);
+}
+
+.counterValue {
+  display: inline-block;
+  font-size: 4.5rem;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+}
+
+@media (width >= 768px) {
+  /* Counters rise 70px (2s expo.out) and fade in (1s), 0.1s apart. */
+.counter {
+  opacity: 0;
+  transform: translateY(70px);
+}
+
+.countersShown .counter {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(var(--i) * 0.1s),
+    transform 2s var(--ease-out-expo) calc(var(--i) * 0.1s);
+}
+
+.counterValue {
+    font-size: 6.4rem;
+  }
+}
+
+.counterTitle {
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  line-height: 110%;
+}
+
+@media (width >= 768px) {
+  .counterTitle {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem 0.858rem;
+  margin-top: 5rem;
+}
+
+@media (width >= 768px) {
+  .logos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 11rem;
+    margin-top: 15rem;
+  }
+}
+
+.logo {
+  width: 15.463rem;
+  height: 6.529rem;
+}
+
+@media (width >= 768px) {
+  .logo {
+    width: 24.421rem;
+    height: 10.311rem;
+  }
+}
+
+/* Logos fade in one after another once the grid scrolls into view. */
+.logo {
+  opacity: 0;
+  transition: opacity 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(var(--i) * 0.1s);
+}
+
+.logosShown .logo {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo {
+    opacity: 1;
+    transition: none;
+  }
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------- SplitshowSection ---------- */
+.splitshow {
+  margin: 8rem 0;
+}
+
+@media (width >= 768px) {
+  .splitshow {
+    margin: 14rem 0;
+  }
+}
+
+.col {
+  display: grid;
+  grid-auto-rows: min-content;
+  gap: 2rem;
+}
+
+.colRight {
+  margin-top: 2rem;
+}
+
+@media (width >= 768px) {
+  .splitItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+    max-width: 106rem;
+  }
+
+  .col {
+    gap: 10rem;
+  }
+
+  .colRight {
+    margin-top: 16.1rem;
+  }
+}
+
+.splitPreview {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding-bottom: 124.8%;
+  border-radius: 2rem;
+  transform: translateZ(0);
+}
+
+.splitSm {
+  padding-bottom: 100%;
+}
+
+@media (width < 768px) {
+  .splitPreview {
+    margin: 0 -1rem;
+  }
+}
+
+.splitMedia {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: translate3d(0, -10%, 0) scale(1.05);
+}
+
+.splitMediaShown {
+  opacity: 1;
+  transition: opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.splitMedia img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------- FeedbackSection ---------- */
+.feedback {
+  position: relative;
+  overflow: hidden;
+  margin: 8rem 0;
+}
+
+@media (width >= 768px) {
+  .feedback {
+    margin: 14rem 0;
+  }
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+  outline: none;
+}
+
+.carousel:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 0.4rem;
+}
+
+@media (width >= 768px) {
+  .carousel {
+    margin: 0 -1rem;
+  }
+}
+
+.items {
+  display: flex;
+  cursor: grab;
+  touch-action: pan-y;
+}
+
+.items:active {
+  cursor: grabbing;
+}
+
+.item {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+@media (width >= 768px) {
+  .item {
+    padding: 0 1rem;
+  }
+}
+
+.quote {
+  position: relative;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+@media (width >= 768px) {
+  .author {
+    margin-bottom: 3.1rem;
+  }
+}
+
+.authorLine {
+  flex-shrink: 0;
+  width: 20px;
+  height: 1px;
+  margin: -1px 1.4rem 0 0;
+  background: currentColor;
+}
+
+/* Author line fades in over 2s. */
+.author {
+  opacity: 0;
+}
+
+.authorShown {
+  opacity: 1;
+  transition: opacity 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.authorName {
+  color: #999;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  /* Author line fades in over 2s. */
+.author {
+  opacity: 0;
+}
+
+.authorShown {
+  opacity: 1;
+  transition: opacity 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.authorName {
+    font-size: 1.6rem;
+  }
+}
+
+.authorName b {
+  color: #000;
+  font-weight: 400;
+}
+
+.quoteBody {
+  cursor: pointer;
+}
+
+.quoteText::before {
+  content: "“";
+}
+
+.quoteText::after {
+  content: "”";
+}
+
+.action {
+  margin-top: 2rem;
+}
+
+@media (width >= 768px) {
+  .action {
+    margin-top: 4.2rem;
+  }
+}
+
+/* ---------- SummarySection ---------- */
+.summary {
+  position: relative;
+  margin: 8rem 0;
+}
+
+@media (width >= 768px) {
+  .summary {
+    margin: 15rem 0;
+  }
+}
+
+.inverse {
+  color: #fff;
+}
+
+.summaryFill {
+  margin-top: 0;
+  padding-top: 8rem;
+}
+
+@media (width >= 768px) {
+  .summaryFill {
+    padding-top: 15rem;
+  }
+}
+
+.summaryFill.inverse {
+  margin-bottom: 0;
+  padding-bottom: 8rem;
+}
+
+@media (width >= 768px) {
+  .summaryFill.inverse {
+    padding-bottom: 12rem;
+  }
+}
+
+.fill {
+  position: absolute;
+  inset: 0;
+  background: #fff;
+}
+
+.inverse .fill {
+  background: #000;
+}
+
+@media (width >= 768px) {
+  .fill {
+    border-radius: 8rem;
+  }
+
+  /* Runs under the next (white, rounded) section so its corners show black behind them. */
+  .fillJoined {
+    bottom: -8rem;
+    border-radius: 8rem 8rem 0 0;
+  }
+}
+
+.summaryContent {
+  position: relative;
+}
+
+.summaryHeader {
+  margin: 0 0 4rem;
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+
+@media (width >= 768px) {
+  .summaryHeader {
+    margin: 0 0 12rem;
+    font-size: 8rem;
+  }
+}
+
+.summaryDivider {
+  margin: 2rem 0 2.5rem;
+  color: rgb(0 0 0 / 0.2);
+}
+
+.inverse .summaryDivider {
+  color: rgb(255 255 255 / 0.2);
+}
+
+@media (width >= 768px) {
+  .summaryDivider {
+    margin: 10rem 0 4.5rem;
+  }
+
+  .summaryGrid {
+    display: flex;
+  }
+
+  .summaryLeft,
+  .summaryRight {
+    flex: 1;
+  }
+
+  .compact .summaryRight {
+    flex-basis: 28%;
+  }
+}
+
+.summaryLeft {
+  margin: 0 0 5rem;
+}
+
+.compact .summaryLeft {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .summaryLeft {
+    margin: 0;
+  }
+}
+
+.icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.icon svg {
+  display: inline-block;
+  vertical-align: top;
+  width: 6rem;
+  height: 6rem;
+}
+
+@media (width >= 768px) {
+  .icon svg {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+}
+
+.spin svg,
+.spinReverse svg {
+  animation: rotate360 5s linear infinite;
+}
+
+.spinReverse svg {
+  animation-direction: reverse;
+}
+
+.stroke svg > * {
+  stroke-dasharray: 148 10;
+  animation: strokeRun 5s linear infinite;
+}
+
+.stroke svg > :last-child {
+  animation-direction: reverse;
+  animation-delay: 0.1s;
+}
+
+@keyframes rotate360 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes strokeRun {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 148 10;
+  }
+
+  50% {
+    stroke-dasharray: 135 30;
+  }
+
+  100% {
+    stroke-dashoffset: 157px;
+    stroke-dasharray: 148 10;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icon svg,
+  .icon svg > * {
+    animation: none;
+  }
+}
+
+.info {
+  position: relative;
+  margin: 4rem 0 0;
+}
+
+@media (width < 768px) {
+  .compact .info {
+    margin: 2rem 0 0;
+  }
+}
+
+@media (width >= 768px) {
+  .info {
+    margin: 0;
+  }
+}
+
+.summaryCaption {
+  margin: 0 0 2.4rem;
+}
+
+.summaryCaption h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .summaryCaption {
+    margin: 0 0 4.5rem;
+  }
+
+  .summaryCaption h3 {
+    font-size: 1.28rem;
+  }
+
+  /* Benefit titles hang to the left of the text column, right-aligned 4.2rem from it. */
+  .offset {
+    position: absolute;
+    top: 0.6rem;
+    left: -4.2rem;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .offset h3 {
+    position: relative;
+    left: -100%;
+  }
+}
+
+.summaryText {
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+@media (width >= 768px) {
+  .summaryText {
+    max-width: 50rem;
+    font-size: 2.6rem;
+    letter-spacing: 0.02em;
+  }
+
+  .compact .summaryText {
+    max-width: 86%;
+  }
+}
+
+.summaryText p {
+  margin-bottom: 1em;
+}
+
+.summaryText p:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main,
+  .counter,
+  .splitMedia,
+  .author {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+
+  .draw svg {
+    transform: none;
+  }
+}

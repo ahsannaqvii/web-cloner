@@ -5,11 +5,12 @@ import { cn } from "@/lib/utils";
 import { Arrow } from "./ui";
 import s from "./Cursor.module.css";
 
-type Mode = "default" | "pointer" | "icon" | "hidden";
+type Mode = "default" | "pointer" | "icon" | "next" | "hidden";
 
 /**
  * Cuberto-style cursor follower: a circle that eases toward the pointer and grows over
- * links (pointer) or shows an arrow over media cards (`data-cursor="icon"`).
+ * links (pointer), shows an arrow over media cards (`data-cursor="icon"`) or a long
+ * right arrow over items that advance a carousel (`data-cursor="next"`).
  */
 export function Cursor() {
   const el = useRef<HTMLDivElement>(null);
@@ -42,9 +43,10 @@ export function Cursor() {
         first = false;
       }
       const t = e.target instanceof Element ? e.target : null;
-      const iconEl = t?.closest("[data-cursor='icon']");
+      const iconEl = t?.closest<HTMLElement>("[data-cursor]");
       const link = t?.closest("a, button, summary, [role='button']");
-      setMode(iconEl ? "icon" : link ? "pointer" : "default");
+      const icon = iconEl?.dataset.cursor;
+      setMode(icon === "icon" || icon === "next" ? icon : link ? "pointer" : "default");
     };
     const onLeave = () => setMode("hidden");
     const onDown = () => setActive(true);
@@ -68,6 +70,11 @@ export function Cursor() {
     <div ref={el} className={cn(s.cursor, s[mode], active && s.active)} aria-hidden>
       <span className={s.glyph}>
         <Arrow />
+      </span>
+      <span className={cn(s.glyph, s.glyphNext)}>
+        <svg viewBox="0 0 32 12">
+          <path fill="none" stroke="currentColor" strokeMiterlimit="10" d="m26.28.33 5 5.67-5 5.67M0 6h31.32" />
+        </svg>
       </span>
     </div>
   );

@@ -1,4 +1,5 @@
-import type { ReactNode } from "react";
+import Link from "next/link";
+import type { ComponentProps, ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import s from "./ui.module.css";
 
@@ -18,29 +19,46 @@ export function ext(href: string) {
   return /^https?:/.test(href) ? { href, target: "_blank", rel: "noopener noreferrer" } : { href };
 }
 
+/** Client-side navigation for cloned local routes; a new tab for cuberto.com pages not cloned yet. */
+export function SmartLink({ href, ...props }: Omit<ComponentProps<"a">, "href"> & { href: string }) {
+  if (href.startsWith("/")) return <Link href={href} {...props} />;
+  return <a {...ext(href)} {...props} />;
+}
+
 export function CtaButton({
   href,
   children,
   fill = false,
   inverse = false,
   size,
+  icon,
   className,
 }: {
   href: string;
-  children: string;
+  /** One label, or several that roll independently (e.g. "5.0", "Google"). */
+  children: string | string[];
   fill?: boolean;
   inverse?: boolean;
-  size?: "md" | "sm";
+  size?: "md" | "sm" | "xs";
+  icon?: ReactNode;
   className?: string;
 }) {
+  const labels = typeof children === "string" ? [children] : children;
   return (
-    <a {...ext(href)} className={cn(s.cta, fill && s.fill, inverse && s.inverse, size && s[size], className)}>
+    <SmartLink href={href} className={cn(s.cta, fill && s.fill, inverse && s.inverse, size && s[size], className)}>
       {!fill && <span className={s.border} aria-hidden />}
       <span className={s.ripple} aria-hidden>
         <span />
       </span>
-      <Roll text={children} />
-    </a>
+      {icon && (
+        <span className={s.ctaIcon} aria-hidden>
+          {icon}
+        </span>
+      )}
+      {labels.map((label) => (
+        <Roll key={label} text={label} />
+      ))}
+    </SmartLink>
   );
 }
 
@@ -54,20 +72,20 @@ export function Arrow({ className }: { className?: string }) {
 
 export function MoreButton({ href, children }: { href: string; children: string }) {
   return (
-    <a {...ext(href)} className={s.more}>
+    <SmartLink href={href} className={s.more}>
       <Roll text={children} />
       <span className={s.moreIcon} aria-hidden>
         <Arrow />
       </span>
-    </a>
+    </SmartLink>
   );
 }
 
 export function RoundButton({ href, label, children }: { href: string; label: string; children: ReactNode }) {
   return (
-    <a {...ext(href)} className={s.round} aria-label={label}>
+    <SmartLink href={href} className={s.round} aria-label={label}>
       {children}
-    </a>
+    </SmartLink>
   );
 }
 

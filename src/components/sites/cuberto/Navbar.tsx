@@ -1,9 +1,11 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-import { ORIGIN, navLinks, services } from "./content";
-import { Container, CtaButton, CubertoLogo, Roll } from "./ui";
+import { ORIGIN, ROUTES, navLinks, services } from "./content";
+import { Container, CtaButton, CubertoLogo, Roll, SmartLink } from "./ui";
 import s from "./Navbar.module.css";
 
 export function Navbar() {
@@ -11,6 +13,7 @@ export function Navbar() {
   const [visible, setVisible] = useState(false);
   const [open, setOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const pathname = usePathname();
 
   // Cuberto: header scrolls away, then returns fixed (with blurred fill) when scrolling up.
   useEffect(() => {
@@ -40,9 +43,9 @@ export function Navbar() {
       <div className={s.strip}>
         <Container className={s.container}>
           <div className={s.grid}>
-            <a href="/cuberto" className={s.logo} aria-label="Digital Design &amp; Development Agency">
+            <Link href={ROUTES.home} className={s.logo} aria-label="Digital Design &amp; Development Agency">
               <CubertoLogo />
-            </a>
+            </Link>
 
             <div className={s.toggleCol}>
               <button
@@ -90,13 +93,21 @@ export function Navbar() {
                         </div>
                       </div>
                     </div>
-                    {navLinks.map((l) => (
-                      <div key={l.title} className={s.nav}>
-                        <a href={l.href} className={s.navToggle}>
-                          <Roll text={l.title} />
-                        </a>
-                      </div>
-                    ))}
+                    {navLinks.map((l) => {
+                      const current = l.href === pathname;
+                      return (
+                        <div key={l.title} className={cn(s.nav, current && s.current)}>
+                          <SmartLink
+                            href={l.href}
+                            className={s.navToggle}
+                            aria-current={current ? "page" : undefined}
+                            onClick={() => setOpen(false)}
+                          >
+                            <Roll text={l.title} />
+                          </SmartLink>
+                        </div>
+                      );
+                    })}
                   </div>
                   <div className={s.actions}>
                     <CtaButton href={`${ORIGIN}/contacts/`} fill size="md" className={s.action}>

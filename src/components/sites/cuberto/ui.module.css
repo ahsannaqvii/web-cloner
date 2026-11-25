@@ -98,6 +98,31 @@
   }
 }
 
+.xs {
+  height: 3.6rem;
+  padding: 0 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .xs {
+    height: 3.8rem;
+    font-size: 1.6rem;
+  }
+}
+
+.ctaIcon {
+  position: relative;
+  display: flex;
+}
+
+.ctaIcon svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
 .fill {
   color: #fff;
   background: #000;
@@ -262,5 +287,30 @@
   .round:hover svg {
     transform: scale(0.95);
     transition: transform 0.7s var(--ease-spring-soft);
+  }
+}
+
+/* ---------- SplitReveal (GSAP SplitText words + mask) ---------- */
+.mask {
+  display: inline-block;
+  overflow: clip;
+  margin: -0.2em;
+  vertical-align: top;
+}
+
+.splitWord {
+  display: inline-block;
+  padding: 0.2em;
+  transform: translateY(120%);
+}
+
+.splitShown .splitWord {
+  transform: none;
+  transition: transform 1.7s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1)) var(--d, 0s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .splitWord {
+    transform: none;
   }
 }
