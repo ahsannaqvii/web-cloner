@@ -6,6 +6,7 @@ import { InView, hasEntered } from "../InView";
 import { SplitReveal } from "../SplitReveal";
 import { Container, Roll, SmartLink } from "../ui";
 import { filters, projects, type Category } from "./content";
+import { afterUncover } from "../PageTransition";
 import s from "./Projects.module.css";
 
 type FilterId = "all" | Category;
@@ -22,19 +23,21 @@ function useBatchReveal(root: React.RefObject<HTMLElement | null>, deps: unknown
     const el = root.current;
     if (!el) return;
     const items = Array.from(el.querySelectorAll<HTMLElement>("[data-card]"));
-    const io = new IntersectionObserver((entries) => {
-      entries
-        .filter(hasEntered)
-        .map((e) => e.target as HTMLElement)
-        .sort((a, b) => items.indexOf(a) - items.indexOf(b))
-        .forEach((item, i) => {
-          item.style.setProperty("--delay", `${(i * STAGGER).toFixed(2)}s`);
-          item.classList.add(s.itemShown);
-          io.unobserve(item);
-        });
+    return afterUncover(() => {
+      const io = new IntersectionObserver((entries) => {
+        entries
+          .filter(hasEntered)
+          .map((e) => e.target as HTMLElement)
+          .sort((a, b) => items.indexOf(a) - items.indexOf(b))
+          .forEach((item, i) => {
+            item.style.setProperty("--delay", `${(i * STAGGER).toFixed(2)}s`);
+            item.classList.add(s.itemShown);
+            io.unobserve(item);
+          });
+      });
+      items.forEach((item) => io.observe(item));
+      return () => io.disconnect();
     });
-    items.forEach((item) => io.observe(item));
-    return () => io.disconnect();
   }, [root, deps]);
 }
 
@@ -49,10 +52,14 @@ export function Projects() {
   // Heading, intro and filters belong to the page-enter timeline on the source, so they play on load
   // whatever the scroll position.
   const [entered, setEntered] = useState(false);
-  useEffect(() => {
-    const raf = requestAnimationFrame(() => setEntered(true));
-    return () => cancelAnimationFrame(raf);
-  }, []);
+  useEffect(
+    () =>
+      afterUncover(() => {
+        const raf = requestAnimationFrame(() => setEntered(true));
+        return () => cancelAnimationFrame(raf);
+      }),
+    [],
+  );
 
   useBatchReveal(list, shown);
   useEffect(() => () => clearTimeout(timer.current), []);

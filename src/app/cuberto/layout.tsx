@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { PageTransition } from "@/components/sites/cuberto/PageTransition";
 import s from "@/components/sites/cuberto/page.module.css";
 
 // Cuberto's own Suisse Intl files (licensed to Cuberto) — local reference clone only.
@@ -23,5 +24,10 @@ export const metadata: Metadata = {
 };
 
 export default function CubertoLayout({ children }: { children: React.ReactNode }) {
-  return <div className={`${suisse.variable} ${s.page}`}>{children}</div>;
+  return (
+    <div className={`${suisse.variable} ${s.page}`}>
+      {children}
+      <PageTransition />
+    </div>
+  );
 }

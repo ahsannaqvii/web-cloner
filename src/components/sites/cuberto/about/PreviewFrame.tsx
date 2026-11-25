@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import { hasEntered } from "../InView";
+import { afterUncover } from "../PageTransition";
 import s from "./About.module.css";
 
 /**
@@ -16,19 +17,20 @@ export function PreviewFrame({ lg, children }: { lg?: boolean; children: ReactNo
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    const r = el.getBoundingClientRect();
-    if (r.top < window.innerHeight && r.bottom > 0) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time measurement on mount
-      setState("enter");
-      return;
-    }
-    const io = new IntersectionObserver(([entry]) => {
-      if (!hasEntered(entry)) return;
-      setState("shown");
-      io.disconnect();
+    return afterUncover(() => {
+      const r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight && r.bottom > 0) {
+        setState("enter");
+        return;
+      }
+      const io = new IntersectionObserver(([entry]) => {
+        if (!hasEntered(entry)) return;
+        setState("shown");
+        io.disconnect();
+      });
+      io.observe(el);
+      return () => io.disconnect();
     });
-    io.observe(el);
-    return () => io.disconnect();
   }, []);
 
   return (

@@ -47,6 +47,25 @@ No dummy content was needed.
 
 **Licensing:** Suisse Intl and all media belong to Cuberto. They are fine for local study but must not be deployed or published.
 
+## Page transition
+
+`PageTransition.tsx` reproduces the source's `.Loader`. It is mounted in `src/app/cuberto/layout.tsx`, so it persists across `/cuberto` routes.
+
+How it works:
+1. Clicking a link to another `/cuberto` page (no new tab, no modifier keys, a different path) is intercepted before next/link handles it.
+2. A 30% black backdrop fades in (0.5s) while a white panel grows up from the bottom: scaleY 0→1, 0.7s, power4.inOut.
+3. The route changes under the panel, and the page scrolls to the top.
+4. The backdrop drops at once and the panel fades out over 0.4s.
+5. Entrance and scroll reveals wait for the page to be uncovered (`afterUncover`, the `html.loader` class), so the new page's animations play in view, as the source plays them after the loader hides.
+
+Not animated, as on the source: browser back and forward, same-page links, external links, and anything when reduced motion is preferred.
+
+Verified (2026-11-25):
+- The panel's timing was sampled during a real click.
+- Rapid double clicks give one transition.
+- Cards, the reel, the logo, the navbar and the footer all transition.
+- The production build passes.
+
 ## Case studies (`/cuberto/projects/<slug>`)
 
 All 22 case studies use the same section components: Tophead, Preview, Overview, Splitshow, Feedback (13 of them) and Nextcase. So they are built as one data-driven page rather than 22 hand-written ones.

@@ -1,0 +1,83 @@
+/* cuberto.com `.Loader`: values from the source stylesheet and its GSAP timelines. */
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+@supports (height: 100lvh) {
+  .loader {
+    height: 100lvh;
+  }
+}
+
+.backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / 0.3);
+  opacity: 0;
+}
+
+.fill {
+  position: absolute;
+  inset: 0;
+  background: #fff;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+
+/* Show: backdrop fades in (0.5s power1.out) while the panel grows up (0.7s power4.inOut). */
+.show,
+.covered {
+  display: block;
+  pointer-events: auto;
+}
+
+.show .backdrop,
+.covered .backdrop {
+  opacity: 1;
+  animation: fadeIn 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.show .fill,
+.covered .fill {
+  transform: none;
+}
+
+.show .fill {
+  animation: grow 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* Hide: backdrop drops at once; the panel fades out over 0.4s. */
+.hide {
+  display: block;
+}
+
+.hide .fill {
+  transform: none;
+  animation: fadeOut 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes grow {
+  from {
+    transform: scaleY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}

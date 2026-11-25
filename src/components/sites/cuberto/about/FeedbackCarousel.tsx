@@ -5,6 +5,7 @@ import { InView, hasEntered } from "../InView";
 import { SplitReveal } from "../SplitReveal";
 import { CtaButton } from "../ui";
 import type { Feedback } from "./content";
+import { afterUncover } from "../PageTransition";
 import s from "./About.module.css";
 
 const SPACE = 30; // Swiper spaceBetween (px)
@@ -70,13 +71,15 @@ export function FeedbackCarousel({ items }: { items: Feedback[] }) {
   useEffect(() => {
     const el = viewport.current;
     if (!el) return;
-    const io = new IntersectionObserver(([entry]) => {
-      if (!hasEntered(entry)) return;
-      setShown(true);
-      io.disconnect();
+    return afterUncover(() => {
+      const io = new IntersectionObserver(([entry]) => {
+        if (!hasEntered(entry)) return;
+        setShown(true);
+        io.disconnect();
+      });
+      io.observe(el);
+      return () => io.disconnect();
     });
-    io.observe(el);
-    return () => io.disconnect();
   }, []);
 
   // After landing on a clone, jump to its real twin without a transition.

@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import { hasEntered } from "../InView";
+import { afterUncover } from "../PageTransition";
 
 /**
  * Cuberto's media parallax: the media sits at scale(1.05) and slides from -10% to +10% while its frame
@@ -37,17 +38,20 @@ export function Parallax({
       if (!raf) raf = requestAnimationFrame(update);
     };
     update();
-    const io = new IntersectionObserver(([entry]) => {
-      if (!hasEntered(entry)) return;
-      setShown(true);
-      io.disconnect();
+    const stopReveal = afterUncover(() => {
+      const io = new IntersectionObserver(([entry]) => {
+        if (!hasEntered(entry)) return;
+        setShown(true);
+        io.disconnect();
+      });
+      io.observe(frame);
+      return () => io.disconnect();
     });
-    io.observe(frame);
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll);
     return () => {
       cancelAnimationFrame(raf);
-      io.disconnect();
+      stopReveal();
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
     };

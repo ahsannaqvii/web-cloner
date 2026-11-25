@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { afterUncover } from "./PageTransition";
 
 /**
  * ScrollTrigger "top bottom" semantics: an element has entered once its top is above the viewport's
@@ -38,13 +39,15 @@ export function InView({
   useEffect(() => {
     const el = ref.current;
     if (!el || controlled !== undefined) return;
-    const io = new IntersectionObserver(([entry]) => {
-      if (!hasEntered(entry)) return;
-      setInView(true);
-      io.disconnect();
+    return afterUncover(() => {
+      const io = new IntersectionObserver(([entry]) => {
+        if (!hasEntered(entry)) return;
+        setInView(true);
+        io.disconnect();
+      });
+      io.observe(el);
+      return () => io.disconnect();
     });
-    io.observe(el);
-    return () => io.disconnect();
   }, [controlled]);
 
   return (
