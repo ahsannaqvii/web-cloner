@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { RevealHeading } from "../infeniti/RevealHeading";
-import { ORIGIN, logos, testimonials, workColumns } from "./content";
+import { ROUTES, logos, testimonials, workColumns } from "./content";
 import { Container, CtaButton } from "./ui";
 import { WorkCard } from "./WorkCard";
 import s from "./Middle.module.css";
@@ -51,7 +51,7 @@ export function Middle() {
             ))}
           </div>
           <div className={s.more}>
-            <CtaButton href={`${ORIGIN}/projects/`} inverse>
+            <CtaButton href={ROUTES.projects} inverse>
               View all projects
             </CtaButton>
           </div>

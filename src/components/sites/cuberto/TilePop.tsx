@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, type ReactNode } from "react";
+import { hasEntered } from "./InView";
 
 /** Scales each tile up from 0 with a stagger when the grid enters the viewport (Cuberto tiles). */
 export function TilePop({
@@ -23,7 +24,7 @@ export function TilePop({
     });
     const io = new IntersectionObserver(
       ([entry]) => {
-        if (!entry.isIntersecting) return;
+        if (!hasEntered(entry)) return;
         items.forEach((el, i) => {
           el.style.transition = `transform 1s cubic-bezier(0.34, 1.3, 0.64, 1) ${i * 0.08}s`;
           el.style.transform = "scale(1)";

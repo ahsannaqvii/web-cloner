@@ -1,0 +1,235 @@
+/* cuberto.com/projects. Values copied from the source's EntrylistSection and Card styles. */
+
+.section {
+  overflow: hidden;
+  padding: 12rem 0 11.3rem;
+}
+
+@media (width >= 768px) {
+  .section {
+    padding: 20rem 0 24rem;
+  }
+}
+
+.header {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+}
+
+@media (width >= 768px) {
+  .header {
+    font-size: 9rem;
+    text-align: center;
+    text-wrap: balance;
+  }
+}
+
+.text {
+  max-width: 84rem;
+  margin: 3.2rem auto 0;
+  font-size: 2rem;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+}
+
+@media (width >= 768px) {
+  .text {
+    font-size: 2.4rem;
+    line-height: 120%;
+    text-align: center;
+  }
+}
+
+/* ---------- Filters ---------- */
+.filters {
+  overflow: auto;
+  margin: 0 -2.5rem 3rem;
+  padding: 5rem 0 2rem 1rem;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.filters::-webkit-scrollbar {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .filters {
+    overflow: visible;
+    margin: 7rem 0 12rem;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.filter {
+  position: relative;
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  font-size: 1.8rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  cursor: pointer;
+  /* Enter: rise 30px (50px on wide screens) and fade in, power3.out 1s, 0.04s apart, after 0.2s. */
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+@media (width > 1000px) {
+  .filter {
+    transform: translateY(50px);
+  }
+}
+
+@media (width >= 768px) {
+  .filter {
+    padding: 0.6rem 2.5rem;
+    font-size: 2.4rem;
+  }
+}
+
+.filtersShown .filter {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1) calc(0.2s + var(--i) * 0.04s),
+    transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) calc(0.2s + var(--i) * 0.04s);
+}
+
+.filter::after {
+  content: "";
+  position: absolute;
+  right: 2rem;
+  bottom: 0;
+  left: 2rem;
+  border-top: 1px solid;
+  transform: scaleX(0);
+  transition: transform 1s var(--ease-out-expo);
+}
+
+.filterActive::after {
+  transform: scaleX(1);
+}
+
+/* ---------- Grid ---------- */
+.items {
+  display: grid;
+  gap: 6rem;
+  transition: opacity 0.25s;
+  animation: itemsIn 0.2s;
+}
+
+.itemsFading {
+  opacity: 0;
+}
+
+@keyframes itemsIn {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (width >= 768px) {
+  .items {
+    grid-template-columns: repeat(2, 50rem);
+    justify-content: space-between;
+    gap: 10rem;
+  }
+
+  /* Right column sits 16.1rem lower. */
+  .item:nth-child(2n) {
+    top: 16.1rem;
+  }
+
+  .item:nth-child(2n):last-child {
+    margin-bottom: 16.1rem;
+  }
+}
+
+/* Cards rise 70px (2s expo.out) and fade in (1s) as they enter; delay set per batch. */
+.item {
+  position: relative;
+  opacity: 0;
+  translate: 0 70px;
+}
+
+.itemShown {
+  opacity: 1;
+  translate: none;
+  transition:
+    opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) var(--delay, 0s),
+    translate 2s var(--ease-out-expo) var(--delay, 0s);
+}
+
+/* ---------- Card ---------- */
+.card {
+  display: block;
+}
+
+.preview {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 2rem;
+  transform: translateZ(0);
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (pointer: fine) {
+  .preview,
+  .media img {
+    transition: transform 1.2s var(--ease-out-expo);
+  }
+
+  .card:hover .preview {
+    transform: scale(0.98);
+  }
+
+  .card:hover .media img {
+    transform: scale(1.05);
+  }
+}
+
+.caption {
+  display: block;
+  max-width: 94%;
+  margin: 2rem 0 0;
+  font-size: 1.7rem;
+  line-height: 120%;
+}
+
+@media (width >= 768px) {
+  .caption {
+    max-width: none;
+    margin: 3.2rem 0 0;
+    font-size: 2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .filter,
+  .item {
+    opacity: 1;
+    transform: none;
+    translate: none;
+  }
+}

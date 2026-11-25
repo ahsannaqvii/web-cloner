@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { hasEntered } from "../InView";
 
 /**
  * Cuberto's media parallax: the media sits at scale(1.05) and slides from -10% to +10% while its frame
@@ -37,7 +38,7 @@ export function Parallax({
     };
     update();
     const io = new IntersectionObserver(([entry]) => {
-      if (!entry.isIntersecting) return;
+      if (!hasEntered(entry)) return;
       setShown(true);
       io.disconnect();
     });

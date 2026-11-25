@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { hasEntered } from "../InView";
 import s from "./About.module.css";
 
 /**
@@ -22,7 +23,7 @@ export function PreviewFrame({ lg, children }: { lg?: boolean; children: ReactNo
       return;
     }
     const io = new IntersectionObserver(([entry]) => {
-      if (!entry.isIntersecting) return;
+      if (!hasEntered(entry)) return;
       setState("shown");
       io.disconnect();
     });

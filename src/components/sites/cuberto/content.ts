@@ -1,7 +1,7 @@
 export const ORIGIN = "https://cuberto.com";
 
 /** cuberto.com paths that have a local clone; every other link goes to the live site. */
-export const ROUTES = { home: "/cuberto", about: "/cuberto/about" } as const;
+export const ROUTES = { home: "/cuberto", about: "/cuberto/about", projects: "/cuberto/projects" } as const;
 const A = "/sites/cuberto";
 
 export const services = [
@@ -13,7 +13,7 @@ export const services = [
 ];
 
 export const navLinks = [
-  { title: "Projects", href: `${ORIGIN}/projects/` },
+  { title: "Projects", href: ROUTES.projects },
   { title: "About", href: ROUTES.about },
   { title: "Blog", href: `${ORIGIN}/blog/` },
 ];
@@ -202,7 +202,7 @@ export const faqs: { q: string; a: string[] }[] = [
 export const footerNav = [
   { title: "Services", href: `${ORIGIN}/services/` },
   { title: "Blog", href: `${ORIGIN}/blog/` },
-  { title: "Projects", href: `${ORIGIN}/projects/` },
+  { title: "Projects", href: ROUTES.projects },
   { title: "Workflow", href: "https://hello.cuberto.com/" },
   { title: "About", href: ROUTES.about },
   { title: "Contacts", href: `${ORIGIN}/contacts/` },

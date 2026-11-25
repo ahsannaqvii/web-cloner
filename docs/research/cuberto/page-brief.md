@@ -4,6 +4,7 @@
 |---|---|---|
 | https://cuberto.com/ | `/cuberto` | `src/app/cuberto/page.tsx`, `src/components/sites/cuberto/*` |
 | https://cuberto.com/about/ | `/cuberto/about` | `src/app/cuberto/about/page.tsx`, `src/components/sites/cuberto/about/*` |
+| https://cuberto.com/projects/ | `/cuberto/projects` | `src/app/cuberto/projects/page.tsx`, `src/components/sites/cuberto/projects/*` |
 
 `/` stays the Infeniti homepage. This clone is a local reference, and its pages set `noindex`.
 
@@ -44,6 +45,31 @@ Every asset was downloaded from cuberto.com.
 No dummy content was needed.
 
 **Licensing:** Suisse Intl and all media belong to Cuberto. They are fine for local study but must not be deployed or published.
+
+## Projects page
+
+Source structure: an EntrylistSection (an "Our projects" heading, an intro line, 4 filter tabs and 22 project cards), then the shared Outro and Footer. The card list in `projects/content.ts` was generated from the source markup: names, captions, categories (`web`, `app`, `branding`) and the one `object-position` override (Kelvin Zero). Covers are in `public/sites/cuberto/projects/covers/` at 1x and 2x. Some of the source's `.jpg` URLs actually serve PNG data, so those files are saved as `.png`.
+
+The Projects page also loads Suisse Intl bold (700, for the project names). Semibold (600) was added to the layout too; the About page's small buttons use it.
+
+Motion and behavior, from the source's `EntrylistSection` and `Card` scripts:
+
+| Element | Behavior |
+|---|---|
+| Heading, intro, filters | Part of the page-enter timeline, so they play on load at any scroll position. Heading words are 0.1s apart. Filters rise 30px (50px on screens wider than 1000px) and fade in, power3.out 1s, 0.04s apart, starting at 0.2s. |
+| Cards | Rise 70px (2s expo.out) and fade in (1s) as they scroll in. Cards entering together are staggered 0.1s apart (ScrollTrigger.batch). |
+| Filter click | The underline moves at once. The grid fades out (0.25s), is replaced by the matching cards (which reveal again) and fades back in (0.2s). |
+| Card hover | The preview scales to .98 and the image to 1.05 (1.2s expo.out). The cursor shows the ↗ arrow. |
+
+Cards link to the live case studies on cuberto.com in a new tab, since those pages aren't cloned.
+
+Verified (2026-11-25):
+- At 1440×900 and 375×812, every measured position matches the source (8,622px and 12,196px total).
+- The Branding filter shows the same 6 projects and the same 3,726px height as the source.
+- All 22 cards reveal on a wheel scroll.
+- These links reach `/cuberto/projects` at the top of the page: navbar Projects, the homepage's "View all projects" button, and footer Projects on the About page.
+
+Also fixed while building this: scroll reveals now also count elements already scrolled past, matching ScrollTrigger. Before this, reloading mid-page left content above the viewport hidden on both the About and Projects pages.
 
 ## About page sections
 
@@ -111,4 +137,5 @@ Also fixed while checking: on mobile, the navbar had an extra 14px of grid paddi
 - The "★ 5.0 Google" buttons don't play Cuberto's button-entrance animation, where the border scales in and the labels rise.
 - The homepage's text blocks don't use SplitReveal yet; only its headings reveal.
 - The cursor's media and text modes aren't used on these pages, so they weren't rebuilt.
-- Navigation links point to the live cuberto.com pages for every route not cloned yet.
+- Navigation links point to the live cuberto.com pages for every route not cloned yet, including each project case study.
+- The source's "empty" filter message isn't rebuilt; no filter on the source is empty.

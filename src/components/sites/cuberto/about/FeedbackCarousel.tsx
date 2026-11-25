@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react";
-import { InView } from "../InView";
+import { InView, hasEntered } from "../InView";
 import { SplitReveal } from "../SplitReveal";
 import { CtaButton } from "../ui";
 import type { Feedback } from "./content";
@@ -71,7 +71,7 @@ export function FeedbackCarousel({ items }: { items: Feedback[] }) {
     const el = viewport.current;
     if (!el) return;
     const io = new IntersectionObserver(([entry]) => {
-      if (!entry.isIntersecting) return;
+      if (!hasEntered(entry)) return;
       setShown(true);
       io.disconnect();
     });
