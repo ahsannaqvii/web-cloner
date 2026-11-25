@@ -94,7 +94,8 @@ export function Navbar() {
                       </div>
                     </div>
                     {navLinks.map((l) => {
-                      const current = l.href === pathname;
+                      // Sub-pages (a case study under /projects) keep their section underlined.
+                      const current = pathname === l.href || pathname.startsWith(`${l.href}/`);
                       return (
                         <div key={l.title} className={cn(s.nav, current && s.current)}>
                           <SmartLink

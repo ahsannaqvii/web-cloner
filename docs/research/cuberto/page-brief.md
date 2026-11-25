@@ -5,6 +5,7 @@
 | https://cuberto.com/ | `/cuberto` | `src/app/cuberto/page.tsx`, `src/components/sites/cuberto/*` |
 | https://cuberto.com/about/ | `/cuberto/about` | `src/app/cuberto/about/page.tsx`, `src/components/sites/cuberto/about/*` |
 | https://cuberto.com/projects/ | `/cuberto/projects` | `src/app/cuberto/projects/page.tsx`, `src/components/sites/cuberto/projects/*` |
+| https://cuberto.com/projects/<slug>/ (22 case studies) | `/cuberto/projects/<slug>` | `src/app/cuberto/projects/[slug]/page.tsx`, `src/components/sites/cuberto/cases/*` |
 
 `/` stays the Infeniti homepage. This clone is a local reference, and its pages set `noindex`.
 
@@ -45,6 +46,37 @@ Every asset was downloaded from cuberto.com.
 No dummy content was needed.
 
 **Licensing:** Suisse Intl and all media belong to Cuberto. They are fine for local study but must not be deployed or published.
+
+## Case studies (`/cuberto/projects/<slug>`)
+
+All 22 case studies use the same section components: Tophead, Preview, Overview, Splitshow, Feedback (13 of them) and Nextcase. So they are built as one data-driven page rather than 22 hand-written ones.
+
+How the data is produced:
+- `scripts/cuberto-cases.py` parses the downloaded source pages into `cases/cases.json`: rich text with desktop-only and always line breaks, links, bold and lists, plus media paths, details, tiles, captions, the feedback quote and the next project.
+- To regenerate, re-download the pages into a folder and run `python3 scripts/cuberto-cases.py <folder>`.
+
+How the pages are built:
+- `cases/CaseStudy.tsx` renders the sections, reusing the About page's building blocks (`about/parts.tsx`, `about/About.module.css`).
+- Case-only parts are in `cases/Case.module.css`: tophead details, preview label, overview links and tiles, split sizes and captions, and the reel.
+- The route pre-renders all 22 slugs with `generateStaticParams`. `dynamicParams = false` makes any other slug a 404.
+
+Media: 426 files (141 MB) in `public/sites/cuberto/cases/<slug>/`, at the base resolution only. The source's `@1.5x` images (screens 1600px and wider) and `@2x` split images (retina) were not downloaded. Three source files had cache-busting query strings in their names, and daoway's `main.jpg` is really a PNG; these were saved as `main.png`, `screenshot/1.png` and `screenshot/4.mp4`.
+
+Next-project reel, from the source's Reeller setup:
+- One "Next project" item scrolls by every 15s, set in Suisse Intl light (300, now loaded).
+- Scrolling runs it in reverse at 0.3× the scroll delta, then it eases back to normal speed and keeps the last direction.
+- Hovering shows the next project in a 36rem cursor circle and inverts the text. It is the card video for 10 projects and the cover image for the other 12, as on the source.
+
+Verified (2026-11-25):
+- Every section's top and height on all 22 pages was compared with the live pages, in a 1440×900 frame and a 375×812 frame. Total heights match exactly on all 44 comparisons.
+- Visual checks on FIND (details, Project button, tiles), Kzero ("Old site" label), Cisco (split captions) and Datalight (reel and cursor video).
+- Navigation: Projects-page cards, homepage cards and the reel all open the local case study in the same tab, at the top, with Projects underlined.
+- All 22 routes return 200, an unknown slug returns 404, and all 438 media URLs load.
+
+Also changed:
+- Project cards on the Projects page and the homepage now route locally.
+- The navbar underlines its section on sub-pages.
+- The cursor gained a `data-cursor="media"` image/video mode.
 
 ## Projects page
 
@@ -137,5 +169,7 @@ Also fixed while checking: on mobile, the navbar had an extra 14px of grid paddi
 - The "★ 5.0 Google" buttons don't play Cuberto's button-entrance animation, where the border scales in and the labels rise.
 - The homepage's text blocks don't use SplitReveal yet; only its headings reveal.
 - The cursor's media and text modes aren't used on these pages, so they weren't rebuilt.
-- Navigation links point to the live cuberto.com pages for every route not cloned yet, including each project case study.
+- Navigation links point to the live cuberto.com pages for every route not cloned yet (Services, Blog, Contacts, Privacy).
+- Case studies use base-resolution media only. They look slightly softer on retina and very wide screens than the source.
+- External links inside case studies (Launch project, App Store, Awwwards and so on) go to the real sites.
 - The source's "empty" filter message isn't rebuilt; no filter on the source is empty.

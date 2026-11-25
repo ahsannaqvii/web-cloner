@@ -1,4 +1,4 @@
-import { ORIGIN } from "../content";
+import { ROUTES } from "../content";
 
 const A = "/sites/cuberto/projects/covers";
 
@@ -205,5 +205,5 @@ export const projects = [
   categories: p.categories as Category[],
   img: `${A}/${p.img}`,
   img2x: `${A}/${p.img2x}`,
-  href: `${ORIGIN}/projects/${p.slug}/`,
+  href: `${ROUTES.projects}/${p.slug}`,
 }));

@@ -32,6 +32,7 @@ export function CtaButton({
   inverse = false,
   size,
   icon,
+  iconAfter = false,
   className,
 }: {
   href: string;
@@ -41,6 +42,8 @@ export function CtaButton({
   inverse?: boolean;
   size?: "md" | "sm" | "xs";
   icon?: ReactNode;
+  /** Put the icon after the labels (e.g. "Project ↗"). */
+  iconAfter?: boolean;
   className?: string;
 }) {
   const labels = typeof children === "string" ? [children] : children;
@@ -50,7 +53,7 @@ export function CtaButton({
       <span className={s.ripple} aria-hidden>
         <span />
       </span>
-      {icon && (
+      {icon && !iconAfter && (
         <span className={s.ctaIcon} aria-hidden>
           {icon}
         </span>
@@ -58,6 +61,11 @@ export function CtaButton({
       {labels.map((label) => (
         <Roll key={label} text={label} />
       ))}
+      {icon && iconAfter && (
+        <span className={s.ctaIcon} aria-hidden>
+          {icon}
+        </span>
+      )}
     </SmartLink>
   );
 }

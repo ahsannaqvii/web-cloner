@@ -1,0 +1,395 @@
+/* cuberto.com/projects/<slug>. Section styles shared with the About page live in
+   ../about/About.module.css; this file holds the parts only case studies use. Values come from
+   the source's TopheadSection, PreviewSection, OverviewSection, SplitshowSection and
+   NextcaseSection styles. */
+
+/* ---------- TopheadSection (grid variant) ---------- */
+.tophead {
+  position: relative;
+  padding: 12rem 0 6rem;
+}
+
+@media (width >= 768px) {
+  .tophead {
+    padding: 20rem 0 10rem;
+  }
+}
+
+.topGrid {
+  display: grid;
+  align-items: end;
+  gap: 3.2rem;
+  text-align: left;
+}
+
+@media (width >= 768px) {
+  .topGrid {
+    grid-template-columns: 97.1rem auto;
+    gap: 0;
+  }
+
+  .topRight {
+    text-align: right;
+  }
+}
+
+.name {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 110%;
+}
+
+@media (width >= 768px) {
+  .name {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+}
+
+.title {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+@media (width >= 768px) {
+  .title {
+    font-size: 9rem;
+  }
+}
+
+.details {
+  display: inline-flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.detail {
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 110%;
+  text-transform: uppercase;
+  /* Rise 70px (2s expo.out) and fade in (1s), 0.1s apart, from 0.4s into the page enter. */
+  opacity: 0;
+  translate: 0 70px;
+}
+
+@media (width >= 768px) {
+  .detail {
+    font-size: 1.6rem;
+  }
+}
+
+.detailsShown .detail {
+  opacity: 1;
+  translate: none;
+  transition:
+    opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(0.4s + var(--i) * 0.1s),
+    translate 2s var(--ease-out-expo) calc(0.4s + var(--i) * 0.1s);
+}
+
+.detail::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1px - 0.2rem);
+  right: -1.2rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.detail:last-child::after {
+  display: none;
+}
+
+.detail a {
+  text-decoration: underline 1px transparent;
+  text-underline-offset: 0.3em;
+  transition: text-decoration-color 0.2s;
+}
+
+.detail a:hover {
+  text-decoration-color: currentColor;
+}
+
+/* ---------- PreviewSection extras ---------- */
+.static {
+  transform: none !important;
+}
+
+.label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 5;
+  padding: 0.4rem 1rem;
+  border: 1px solid;
+  border-radius: 10rem;
+  font-size: 1.4rem;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .label {
+    top: 4.8rem;
+    left: 5.5rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 2.1rem;
+  }
+}
+
+/* ---------- OverviewSection extras ---------- */
+/* Browser-default list box, as on the source (its malformed <p><ul> markup keeps UA styles). */
+.list {
+  margin: 1em 0;
+  padding-left: 40px;
+  list-style: disc outside;
+}
+
+/* The paragraph before a list keeps its bottom margin (on the source an empty <p> follows). */
+p:has(+ .list) {
+  margin-bottom: 1em !important;
+}
+
+.links {
+  margin: 2rem -1rem 0;
+}
+
+@media (width >= 768px) {
+  .links {
+    margin: 4rem -2rem 0;
+  }
+}
+
+.link {
+  position: relative;
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* Fade in over 0.8s, 0.2s apart. */
+  opacity: 0;
+}
+
+@media (width >= 768px) {
+  .link {
+    margin: 0 2rem;
+    padding: 0.7rem 0;
+    font-size: 2rem;
+  }
+}
+
+.linksShown .link {
+  opacity: 1;
+  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(var(--i) * 0.2s);
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: currentColor;
+  transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@media (pointer: fine) {
+  .link:hover::before {
+    transform: scaleX(0);
+  }
+}
+
+.tiles {
+  display: grid;
+  gap: 0.8rem;
+  margin: 2rem 0 0;
+}
+
+@media (width >= 768px) {
+  .tiles {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 1.6rem;
+    margin: 7.2rem 0 0;
+  }
+}
+
+.tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.2rem;
+  padding: 3rem;
+  border-radius: 2rem;
+  background: #f1f3fa;
+  /* Scale from .8 and fade in, 2s expo.out, 0.2s apart. */
+  opacity: 0;
+  scale: 0.8;
+}
+
+.tilesShown .tile {
+  opacity: 1;
+  scale: 1;
+  transition:
+    opacity 2s var(--ease-out-expo) calc(var(--i) * 0.2s),
+    scale 2s var(--ease-out-expo) calc(var(--i) * 0.2s);
+}
+
+.tileHighlighted {
+  background: #e3f5f3;
+}
+
+@media (width >= 768px) {
+  .tile {
+    grid-column: span 4;
+    padding: 4rem;
+  }
+
+  .tile:nth-last-child(2):nth-child(3n + 1),
+  .tile:last-child:nth-child(3n + 2) {
+    grid-column: span 6;
+  }
+
+  .tiles:has(.tile:nth-child(4n):last-child) .tile {
+    grid-column: span 5;
+  }
+
+  .tiles:has(.tile:nth-child(4n):last-child) .tile:nth-child(4n - 2),
+  .tiles:has(.tile:nth-child(4n):last-child) .tile:nth-child(4n - 1) {
+    grid-column: span 7;
+  }
+}
+
+.tileCaption {
+  font-size: 1.4rem;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .tileCaption {
+    font-size: 1.6rem;
+  }
+}
+
+.tileText {
+  font-size: 2.4rem;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  opacity: 0.9;
+}
+
+@media (width >= 768px) {
+  .tileText {
+    max-width: 28rem;
+    font-size: 2.8rem;
+  }
+}
+
+.tileText strong {
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+@media (width >= 768px) {
+  .tileText strong {
+    font-size: 8rem;
+  }
+}
+
+/* ---------- FeedbackSection: quote marks around the whole quote ---------- */
+.quoteMarks p:first-of-type::before {
+  content: "“";
+}
+
+.quoteMarks p:last-of-type::after {
+  content: "”";
+}
+
+/* ---------- SplitshowSection extras ---------- */
+.splitCaption {
+  max-width: 94%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+
+@media (width >= 768px) {
+  .splitCaption {
+    max-width: 83%;
+    margin-top: 3.2rem;
+    margin-bottom: 0;
+    font-size: 2.4rem;
+  }
+}
+
+/* ---------- NextcaseSection ---------- */
+.nextcase {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin: 8rem 0;
+  padding: 5rem 0;
+}
+
+@media (width >= 768px) {
+  .nextcase {
+    margin: 14rem 0;
+    padding: 10rem 0;
+  }
+}
+
+@media (pointer: fine) {
+  .nextcase:hover {
+    color: #fff;
+    mix-blend-mode: exclusion;
+  }
+}
+
+.reel {
+  display: block;
+}
+
+.reelItems {
+  display: flex;
+  align-items: center;
+  will-change: transform;
+}
+
+.reelItem {
+  flex-shrink: 0;
+  padding: 0.1em 2rem;
+  font-size: 6.72rem;
+  font-weight: 300;
+  letter-spacing: -0.05em;
+  white-space: nowrap;
+}
+
+@media (width >= 768px) {
+  .reelItem {
+    padding: 0.1em 9rem;
+    font-size: 16rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .detail,
+  .link,
+  .tile {
+    opacity: 1;
+    translate: none;
+    scale: none;
+  }
+}

@@ -7,6 +7,7 @@ const suisse = localFont({
   variable: "--font-suisse",
   display: "swap",
   src: [
+    { path: "../../../public/sites/cuberto/fonts/suisseintl-light.woff2", weight: "300", style: "normal" },
     { path: "../../../public/sites/cuberto/fonts/suisseintl-regular.woff2", weight: "400", style: "normal" },
     { path: "../../../public/sites/cuberto/fonts/suisseintl-medium.woff2", weight: "500", style: "normal" },
     { path: "../../../public/sites/cuberto/fonts/suisseintl-semibold.woff2", weight: "600", style: "normal" },

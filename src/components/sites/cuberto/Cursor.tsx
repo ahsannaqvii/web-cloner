@@ -5,17 +5,19 @@ import { cn } from "@/lib/utils";
 import { Arrow } from "./ui";
 import s from "./Cursor.module.css";
 
-type Mode = "default" | "pointer" | "icon" | "next" | "hidden";
+type Mode = "default" | "pointer" | "icon" | "next" | "media" | "hidden";
 
 /**
  * Cuberto-style cursor follower: a circle that eases toward the pointer and grows over
  * links (pointer), shows an arrow over media cards (`data-cursor="icon"`) or a long
- * right arrow over items that advance a carousel (`data-cursor="next"`).
+ * right arrow over items that advance a carousel (`data-cursor="next"`), or a 36rem circle with
+ * an image or video over `data-cursor="media"` (`data-cursor-src`, `data-cursor-type`).
  */
 export function Cursor() {
   const el = useRef<HTMLDivElement>(null);
   const [mode, setMode] = useState<Mode>("hidden");
   const [active, setActive] = useState(false);
+  const [media, setMedia] = useState<{ src: string; type: string } | null>(null);
 
   useEffect(() => {
     if (!matchMedia("(pointer: fine)").matches) return;
@@ -46,6 +48,12 @@ export function Cursor() {
       const iconEl = t?.closest<HTMLElement>("[data-cursor]");
       const link = t?.closest("a, button, summary, [role='button']");
       const icon = iconEl?.dataset.cursor;
+      if (icon === "media" && iconEl?.dataset.cursorSrc) {
+        const next = { src: iconEl.dataset.cursorSrc, type: iconEl.dataset.cursorType ?? "image" };
+        setMedia((m) => (m?.src === next.src ? m : next));
+        setMode("media");
+        return;
+      }
       setMode(icon === "icon" || icon === "next" ? icon : link ? "pointer" : "default");
     };
     const onLeave = () => setMode("hidden");
@@ -70,6 +78,16 @@ export function Cursor() {
     <div ref={el} className={cn(s.cursor, s[mode], active && s.active)} aria-hidden>
       <span className={s.glyph}>
         <Arrow />
+      </span>
+      <span className={s.mediaWrap} aria-hidden>
+        <span className={s.mediaBox}>
+          {media?.type === "video" ? (
+            <video key={media.src} src={media.src} autoPlay muted loop playsInline />
+          ) : media ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={media.src} alt="" />
+          ) : null}
+        </span>
       </span>
       <span className={cn(s.glyph, s.glyphNext)}>
         <svg viewBox="0 0 32 12">

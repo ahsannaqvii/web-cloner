@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { cn } from "@/lib/utils";
+import { SmartLink } from "./ui";
 import s from "./Middle.module.css";
 
 /** Project card: cover image, cross-fades to its looping video on hover (pointer devices). */
@@ -28,10 +29,8 @@ export function WorkCard({
   const stop = () => ref.current?.pause();
 
   return (
-    <a
+    <SmartLink
       href={href}
-      target="_blank"
-      rel="noopener noreferrer"
       className={s.card}
       onPointerEnter={play}
       onPointerLeave={stop}
@@ -46,6 +45,6 @@ export function WorkCard({
         </span>
       </span>
       <span className={s.caption}>{caption}</span>
-    </a>
+    </SmartLink>
   );
 }

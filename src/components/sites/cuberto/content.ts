@@ -68,7 +68,7 @@ const project = ({ slug, caption, sm, ext = "jpg" }: Project) => ({
   sm: Boolean(sm),
   img: `${A}/projects/${slug}.${ext}`,
   video: `${A}/projects/${slug}.mp4`,
-  href: `${ORIGIN}/projects/${slug}/`,
+  href: `${ROUTES.projects}/${slug}`,
 });
 
 export const workColumns = [

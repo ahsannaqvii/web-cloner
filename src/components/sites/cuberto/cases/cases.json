@@ -1,0 +1,7195 @@
+[
+ {
+  "slug": "puntopago",
+  "metaTitle": "Punto Pago | Cuberto Projects",
+  "metaDescription": "Our initial task was a full rebranding and creating a mobile app with an average load of 500k users per day. Punto Pago required a new strategy as they were moving towards being a multifunctional app.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/puntopago/main.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "For several years we’ve been helping Punto Pago explore new digital marketing niches. During this time they have worked their way from being a utility bills payment service to launching a superapp as well as a whole Punto Pago ecosystem with bank cards, loans, payments and a marketplace."
+      ]
+     },
+     {
+      "p": [
+       "Launching the product helped increase average revenue per user by growing the size of the basket of consumer goods. Punto Pago provides multiple services, including payments, spending's control and fast delivery marketplace. A lot of services into an instant place that give you access to a range of useful services just in one tap."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://www.puntopago.net/"
+     },
+     {
+      "label": "App store",
+      "href": "https://apps.apple.com/app/punto-pago/id1415876448"
+     },
+     {
+      "label": "Google Play",
+      "href": "https://play.google.com/store/apps/details?id=com.puntopago.puntopagoapp&hl=es_CL"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/puntopago/screenshot/1.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/puntopago/screenshot/2.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product goals",
+     {
+      "br": "desktop"
+     },
+     " and objectives"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product goals",
+      {
+       "br": "desktop"
+      },
+      " and objectives"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Our initial task was a full rebranding and creating a mobile app with an average load of 500k users per day. Punto Pago required a new strategy as they were moving towards being a multifunctional app. Users needed to be able to check their account status and make a payment at any time. The mobile app made it possible identifying the existing clients as well as attracting new ones."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Complete brand overhaul and development of a new strategy"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/2.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/3.jpg"
+        },
+        "size": "lg"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/4.png"
+        },
+        "size": "lg",
+        "caption": [
+         "Redesigning terminals for paying bills in stores, business centers, and hotels"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/5.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Multi-service platform",
+     {
+      "br": "desktop"
+     },
+     " and fintech app"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Punto Pago is not just",
+      {
+       "br": "desktop"
+      },
+      " an app"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Punto Pago provides multiple services, including payments, spendings control and fast delivery marketplace. We have explored the best scaling options considering growth and focused on not just consumer numbers, but transaction numbers."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/puntopago/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Development app",
+     {
+      "br": "desktop"
+     },
+     " for iOS and Android"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/puntopago/screenshot/4.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/6.jpg"
+        },
+        "size": "lg",
+        "caption": [
+         "In-app shopping: wide range of products; delivery to the door; promo codes and cashback"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/7.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/8.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Making online bills payments using bank cards (internet acquiring)"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/9.jpg"
+        },
+        "size": "lg",
+        "caption": [
+         "Design of a physical and virtual card"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/10.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/puntopago/splitshow/11.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Seeing the details of bills payments in the mobile app"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Control panel",
+     {
+      "br": "desktop"
+     },
+     " for merchants"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/puntopago/screenshot/5.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Analysis and ASO",
+     {
+      "br": "desktop"
+     },
+     " strategy"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Analysis and ASO",
+      {
+       "br": "desktop"
+      },
+      " strategy"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Our marketing team accomplished great things for Punto Pago. We analyzed the competitor ASO index, put together a killer strategy and plan for promoting the app, collected a semantic core based on competing products in Panama, composed texts and descriptions with subsequent A/B tests, placed comments with integrated keywords on Google Play and Apple Store, optimized the application page in stores, implemented Facebook SDK and Firebase analytics, completed split testing of Punto Pago’s advertising offers, launched advertising campaigns with optimized app installation, monitored delivery and key word filtration, and tested and implemented push notifications per promotion with increased cashback. Whew!"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/puntopago/screenshot/6.mp4"
+    }
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Andrey Gorsky",
+    "role": "CEO",
+    "text": [
+     {
+      "p": [
+       "It was pleasure to work with Cuberto, we developed App together that has 4.8 rating in store and more than 100 000 installs. My recommendations!"
+      ]
+     }
+    ],
+    "review": "https://goo.gl/maps/8GwhtiBsHrfTmiNA7"
+   }
+  ],
+  "name": "Punto Pago",
+  "title": [
+   "The First",
+   {
+    "br": "always"
+   },
+   " Super-App in",
+   {
+    "br": "always"
+   },
+   " Latin America"
+  ],
+  "next": "find",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/find/cover.mp4"
+  }
+ },
+ {
+  "slug": "find",
+  "metaTitle": "FIND real estate | Cuberto Projects",
+  "metaDescription": "The goal was to build a complete real estate brand and digital platform from the ground up – one that could support buyers, sellers, renters and agents within a single connected experience.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/find/main.mp4"
+    },
+    "lg": true,
+    "static": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "FIND needed more than a new website. The goal was to build a complete real estate brand and digital platform from the ground up – one that could support buyers, sellers, renters and agents within a single connected experience."
+      ]
+     },
+     {
+      "p": [
+       "The main challenge was to make a complex range of services feel simple and intuitive. We had to define the brand, structure different user journeys, design a flexible property discovery experience and create a scalable system that could grow alongside the business."
+      ]
+     },
+     {
+      "p": [
+       "The result is a connected digital ecosystem that helps people discover properties, explore FIND’s services, connect with agents and navigate the real estate process with greater clarity and confidence."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "id": "summary",
+    "header": [
+     "Project Summary"
+    ],
+    "tiles": [
+     {
+      "highlighted": true,
+      "caption": "Team size",
+      "text": [
+       {
+        "p": [
+         {
+          "tag": "strong",
+          "children": [
+           "10+"
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": false,
+      "caption": "Technology stack",
+      "text": [
+       {
+        "p": [
+         "Next.js · Strapi · GSAP · Lenis"
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": false,
+      "caption": "Timeline",
+      "text": [
+       {
+        "p": [
+         "4 months from strategy to deployment"
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": false,
+      "caption": "Audiences",
+      "text": [
+       {
+        "p": [
+         "Buyers, sellers, renters and agents"
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": false,
+      "caption": "Full-cycle execution",
+      "text": [
+       {
+        "p": [
+         "From branding and strategy to deployment & migration"
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": true,
+      "caption": "Content",
+      "text": [
+       {
+        "p": [
+         "Property search, services and resources"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/find/screenshot/1.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product Overview"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product Overview"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "FIND is a full-service real estate company built around a simple idea: finding the right property should feel clear, personal and human. The platform serves several audiences at once. Buyers and renters need an intuitive way to discover properties. Sellers need to understand the company’s expertise and approach. Agents need a clear view of the tools, support, and opportunities available to them."
+      ]
+     },
+     {
+      "p": [
+       "Our challenge was to bring these different journeys together without making the experience feel fragmented or overloaded."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "End-to-end UX/UI design for a modern real estate platform"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/2.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Responsive mobile experience designed for property discovery"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/3.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/4.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Designed around how people search"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Designed around how",
+      {
+       "br": "desktop"
+      },
+      " people search"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "We structured the experience around the key real estate journeys: buying, selling and renting making it easier for users to understand their options, discover relevant properties and take the next step."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/find/screenshot/2.mp4"
+    },
+    "lg": true,
+    "static": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Responsive web design"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/find/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/5.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Responsive platform built for property discovery"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/6.png"
+        },
+        "size": "ms"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/7.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/8.png"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/9.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/10.png"
+        },
+        "size": "sm",
+        "caption": [
+         "A recognizable brand across digital touchpoints"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/11.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Modular components for a growing range of services"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/find/splitshow/12.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "name": "FIND real estate",
+  "title": [
+   "From brand identity to digital experience: building FIND"
+  ],
+  "details": [
+   {
+    "text": "HM AWWWARDS",
+    "href": "https://www.awwwards.com/sites/find-real-estate"
+   },
+   {
+    "text": "2026"
+   },
+   {
+    "cta": "Project",
+    "href": "https://findrealestate.com/"
+   }
+  ],
+  "next": "sca",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/sca/cover.mp4"
+  }
+ },
+ {
+  "slug": "sca",
+  "metaTitle": "Sweeping Corp of America | Cuberto Projects",
+  "metaDescription": "We partnered with the company to redesign and modernize its entire digital ecosystem including UX/UI design, development, CMS integration and branding.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/sca/main.mp4"
+    },
+    "lg": true,
+    "static": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Sweeping Corporation of America had a long-standing digital presence that no longer reflected the scale, reliability and operational maturity of the company. The challenge was not only to redesign the website visually, but to modernize a business-critical platform for a large nationwide organization without disrupting its daily operations."
+      ]
+     },
+     {
+      "p": [
+       "The project required careful planning around CMS flexibility, hosting migration, third-party integrations, lead capture flows and a smooth deployment process. Every form, tracking event, and integration had to be preserved and tested to ensure that no incoming lead was lost during the transition."
+      ]
+     },
+     {
+      "p": [
+       "For a company of this scale, the redesign was less about creating a new look and more about building a stable, scalable and future-ready digital foundation."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://www.sweepingcorp.com/"
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "id": "summary",
+    "header": [
+     "Project Summary"
+    ],
+    "tiles": [
+     {
+      "highlighted": true,
+      "caption": "Team size",
+      "text": [
+       {
+        "p": [
+         {
+          "tag": "strong",
+          "children": [
+           "10+"
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": false,
+      "caption": "Technology stack",
+      "text": [
+       {
+        "p": [
+         "Astro · GSAP · Lottie · WordPress"
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": false,
+      "caption": "Timeline",
+      "text": [
+       {
+        "p": [
+         "3 months from strategy to deployment"
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": false,
+      "caption": "Enterprise CMS",
+      "text": [
+       {
+        "p": [
+         "Enterprise-ready CMS infrastructure"
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": false,
+      "caption": "Full-cycle execution",
+      "text": [
+       {
+        "p": [
+         "From branding and strategy o deployment & migration"
+        ]
+       }
+      ]
+     },
+     {
+      "highlighted": true,
+      "caption": "Custom-designed pages",
+      "text": [
+       {
+        "p": [
+         {
+          "tag": "strong",
+          "children": [
+           "35+"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/sca/screenshot/1.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product Overview"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product Overview"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "SCA operates one of the largest sweeping fleets in the United States, providing services across commercial, municipal and construction sectors nationwide. We partnered with the company to redesign and modernize its entire digital ecosystem including UX/UI design, development, CMS integration and branding."
+      ]
+     },
+     {
+      "p": [
+       "The project focused on creating a scalable platform that could support enterprise-level operations while improving usability, content structure, performance and lead generation across all digital touchpoints."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Modernized website architecture and UX for a nationwide operations company"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/2.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Responsive mobile experience optimized for usability and lead generation"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/3.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/4.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Built around operational clarity"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Built around",
+      {
+       "br": "desktop"
+      },
+      " operational clarity"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "We designed a flexible interface system focused on clarity, usability and scalability helping users navigate complex operational services through a clean and modern digital experience."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/sca/screenshot/2.mp4"
+    },
+    "lg": true,
+    "static": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "From UX to production deployment"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/sca/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/5.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Scalable CMS architecture for enterprise-level content management"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/6.png"
+        },
+        "size": "ms"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/7.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/8.png"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/9.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/10.png"
+        },
+        "size": "sm",
+        "caption": [
+         "A unified visual system across web, mobile and digital products"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/11.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Custom graphic language and scalable design components"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sca/splitshow/12.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Marketing team",
+    "role": "",
+    "text": [
+     {
+      "p": [
+       "As part of SCA’s digital transformation efforts, we partnered with Cuberto to completely reimagine our online presence. Their team took the time to understand the scale and complexity of our business, then translated that into a website that better reflects who we are today. From UX and visual design to development and project management, Cuberto demonstrated a high level of professionalism and attention to detail throughout the engagement."
+      ]
+     }
+    ]
+   }
+  ],
+  "name": "Sweeping Corporation of America",
+  "title": [
+   "Redesign for a nationwide sweeping company"
+  ],
+  "details": [
+   {
+    "text": "HM AWWWARDS",
+    "href": "https://www.awwwards.com/sites/sweeping-corp"
+   },
+   {
+    "text": "2026"
+   },
+   {
+    "cta": "Project",
+    "href": "https://sweepingcorp.com/"
+   }
+  ],
+  "next": "daoway",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/daoway/cover.mp4"
+  }
+ },
+ {
+  "slug": "daoway",
+  "metaTitle": "DaoWay | Cuberto Projects",
+  "metaDescription": "Our team took full responsibility for the project, covering every aspect of development, including: brand identity from scratch, wireframing and user interaction logic, visual and graphic design, frontend development, landing page creation.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/daoway/main.png"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Our company specialises in startup development, and the DaoWay app concept immediately resonated with us."
+      ]
+     },
+     {
+      "p": [
+       "The client approached us with a list of key features intended for the MVP version of the application. Our task was to conduct market research and develop a product from the ground up for both Android and iOS."
+      ]
+     },
+     {
+      "p": [
+       "Our team took full responsibility for the project, covering every aspect of development, including: brand identity from scratch, wireframing and user interaction logic, visual and graphic design, frontend development, landing page creation."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "App store",
+      "href": "https://apps.apple.com/us/app/daoway-astrology-planner/id6498953122"
+     },
+     {
+      "label": "Google Play",
+      "href": "https://play.google.com/store/apps/details?id=com.daoway&hl=en"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/daoway/screenshot/1.png"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product Overview"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product overview"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "DaoWay is designed for a specific audience – those who believe in astrology and seek to channel their energy effectively. The app helps users plan their time wisely and distribute their energy in a balanced way."
+      ]
+     },
+     {
+      "p": [
+       "At its core, DaoWay incorporates the principles of Ba-Zi, a discipline within Chinese metaphysics. By leveraging insights from the Chinese calendar, users can navigate potential pitfalls and avoid unnecessary conflicts. The calendar enables them to act as observers rather than emotionally charged participants in daily situations."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "We helped the client build a distinctive brand identity from the ground up, establishing key branding elements"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/2.png"
+        },
+        "size": "sm",
+        "caption": [
+         "A bold accent green colour, symbolising innovation and vitality; clean and intuitive interface design; hand-drawn line illustrations that add a crafted, artisanal feel"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/3.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/4.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "The core mission – ",
+     {
+      "br": "desktop"
+     },
+     " energy balance"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "The core mission –",
+      {
+       "br": "desktop"
+      },
+      " energy balance"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "DaoWay highlights favourable and unfavourable energy flows, allowing users to align their actions and intentions with the most productive and beneficial pathways – moving with the current rather than against it."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/daoway/screenshot/2.mp4"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Development app",
+     {
+      "br": "desktop"
+     },
+     " for iOS and Android"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/daoway/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/5.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "We specialise in native app development, the most efficient approach to creating high-performance digital products"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/6.png"
+        },
+        "size": "ms"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/daoway/splitshow/7.mp4"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/8.png"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/9.png"
+        },
+        "size": "xs"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/10.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Native development enables more advanced functionality and a seamless interactive experience"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/11.png"
+        },
+        "size": "sm",
+        "caption": [
+         "By leveraging the full potential of the iOS operating system, we ensured the app delivers maximum efficiency and performance"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/12.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Graphic design"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/daoway/screenshot/4.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/13.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/14.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/15.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The colour palette was carefully selected to enhance the app’s tone of communication, with the bright accent green reinforcing the brand’s spirit of innovation and energy"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/16.png"
+        },
+        "size": "ms"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/17.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The app’s lightweight and modern design keeps the user experience focused on essential daily functions"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/18.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/19.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Illustrations play a key role in DaoWay’s identity, adding a touch of warmth and vibrancy to the overall user experience"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/daoway/splitshow/20.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Marketing department of DaoWay",
+    "role": "",
+    "text": [
+     {
+      "p": [
+       "We've had an amazing experience working with Cuberto designers. They brought class, skill and creativity to the project. Looking forward to work with the team again soon!"
+      ]
+     }
+    ],
+    "review": "https://maps.app.goo.gl/AXWL7J7S5sQjR2iv6"
+   }
+  ],
+  "name": "DaoWay",
+  "title": [
+   "Astrology planner",
+   {
+    "br": "desktop"
+   },
+   " app: plan,",
+   {
+    "br": "desktop"
+   },
+   " achieve, thrive"
+  ],
+  "next": "zelt",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/zelt/cover.mp4"
+  }
+ },
+ {
+  "slug": "zelt",
+  "metaTitle": "Zelt | Cuberto Projects",
+  "metaDescription": "Working on the new Zelt website has been a pleasure. Our team provided a full rebranding with the development of a multi-page site from scratch for the Zelt HR platform.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/zelt/main.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Working on the new Zelt website has been a pleasure. Our team provided a full rebranding with the development of a multi-page site from scratch for the Zelt HR platform."
+      ]
+     },
+     {
+      "p": [
+       "The project was complex in several aspects, we were tasked to develop a unique style that distinguishes Zelt from competitors and take into account the fact that the site is essentially one of the main tools for attracting users to the client's product."
+      ]
+     },
+     {
+      "p": [
+       "That is, in other words, the site must be unique, fast, flexible in use, fully adapted and suitable for SEO optimisation. Full set of requirements, just as we love."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://zelt.app/"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/zelt/screenshot/1.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product overview"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product overview"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Zelt is an employee platform for startups which unifies employee data and operations to make employee management more efficient and create a better employee experience."
+      ]
+     },
+     {
+      "p": [
+       "Zelt's HR, IT, and payroll software is an outstanding solution for SMEs and startups seeking an efficient way to manage these crucial functions. But what truly sets Zelt apart is their exceptional customer support and seamless onboarding process. With their expert guidance, businesses can quickly and effortlessly integrate Zelt's software into their operations, ensuring a smooth transition and minimal disruption."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Our team developed a new corporate identity based on strategy, target audience and marketing needs"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/2.png"
+        },
+        "size": "ms"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/3.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/4.jpg"
+        },
+        "size": "ms",
+        "caption": [
+         "A set of 3D illustrations was developed for the site, supporting the overall style of the brand"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/5.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The logo has clear outlines and shapes, which makes it very easy to read on any resolution"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/6.png"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "All-in-one people",
+     {
+      "br": "desktop"
+     },
+     " platform in the UK"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Great all-in-one people",
+      {
+       "br": "desktop"
+      },
+      " platform for startups",
+      {
+       "br": "desktop"
+      },
+      " in the UK"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Zelt is a great all-in-one platform. It makes onboarding employees such an easy process: setup, device management, employee leave, payroll management etc. It's a valuable tool for any fast growing startup!"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/zelt/screenshot/2.png"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Creative concept & motion design"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/zelt/screenshot/3.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/zelt/splitshow/7.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "Among the assets we delivered was a set of illustrations about the product, made with lottie animation"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/8.png"
+        },
+        "size": "ms"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/zelt/splitshow/9.mp4"
+        },
+        "size": "ms",
+        "caption": [
+         "The site is fully interactive, which greatly improves the user experience"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/10.png"
+        },
+        "size": "ms"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/11.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The creative concept was based on a 3D animation of a sphere that shatters into pieces with its core remaining as a symbol of steadfastness"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/zelt/splitshow/12.mp4"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/13.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/14.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Responsive",
+     {
+      "br": "desktop"
+     },
+     " web design"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/zelt/screenshot/4.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/15.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "We pay special attention to the mobile version and check the site on various devices"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/zelt/splitshow/16.mp4"
+        },
+        "size": "ms"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/17.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/18.png"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/zelt/splitshow/19.mp4"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/20.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/zelt/splitshow/21.mp4"
+        },
+        "size": "ms",
+        "caption": [
+         "On mobile resolution, animations and interactions were kept intact where possible, without compromising site performance"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/zelt/splitshow/22.png"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Polina Vorms",
+    "role": "Head of Product",
+    "text": [
+     {
+      "p": [
+       "We have worked with Cuberto on our new image Zelt website. The team performed great in terms of creating a unique design style and developing complex 3D animations."
+      ]
+     }
+    ],
+    "review": "https://goo.gl/maps/vXw8q3wwSr1EbgoX8"
+   }
+  ],
+  "name": "Zelt",
+  "title": [
+   "Run HR, IT &",
+   {
+    "br": "desktop"
+   },
+   " Finance in",
+   {
+    "br": "desktop"
+   },
+   " one place"
+  ],
+  "next": "flipaclip",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/flipaclip/cover.mp4"
+  }
+ },
+ {
+  "slug": "flipaclip",
+  "metaTitle": "FlipaClip | Cuberto Projects",
+  "metaDescription": "Despite its popularity, FlipaClip has never had its own website. We were entrusted to create a site that would complement this unique tool and showcase its main features at the highest level.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/flipaclip/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "FlipaClip is one of the first tools and the most popular application in the world for creating stop-motion animation with an audience of over 30 million. Despite being so popular, FlipaClip has never had a website of its own. And we were entrusted to create a site that would complement this unique tool and could demonstrate the main features at the highest level."
+      ]
+     },
+     {
+      "p": [
+       "The task was initially difficult, as we were creating a website for a popular animation product. We had to deviate from some rules and choose a completely different tactic for the design and presentation of the creative concept. In essence, we combined the UX and UI stages in order to convey our vision to the client as best as possible. Plus, the presentation of the concept was designed in an interactive form."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://flipaclip.com/"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/flipaclip/screenshot/1.mp4"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product overview"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product overview"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "It doesn't matter what style or on what level you draw, this application helps bring many interesting and creative ideas to life. FlipaClip is a comprehensive drawing tool for creating stories on your smartphone in a convenient, fast, and simple yet detailed way with tons of different tools."
+      ]
+     },
+     {
+      "p": [
+       "One of the best things about FlipaClip is that it also includes an animation system so users can add that special something to whatever they draw."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/flipaclip/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The whole website is an interactive story that immerses you in its own atmosphere"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/flipaclip/splitshow/2.png"
+        },
+        "caption": [
+         "All content is presented in short blocks, which improves the perception"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/flipaclip/splitshow/3.mp4"
+        }
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/flipaclip/splitshow/4.mp4"
+        },
+        "size": "lg"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Diary notes"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Diary notes"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Despite a lot of complex animations, 3D and video content, the entire site weighs 5 MB. We had a debate about whether to make a simplified version for smartphones, but the client decided to leave it as it is. And that was the right thing!"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/flipaclip/screenshot/2.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/flipaclip/splitshow/5.png"
+        },
+        "size": "lg",
+        "caption": [
+         "The site reflects a product that combines gamification, uniqueness and visual enjoyment in interaction"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/flipaclip/splitshow/6.mp4"
+        },
+        "size": "lg"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/flipaclip/splitshow/7.mp4"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/flipaclip/splitshow/8.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/flipaclip/splitshow/9.mp4"
+        },
+        "size": "lg"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/flipaclip/screenshot/3.mp4"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Site of the Day",
+     {
+      "br": "always"
+     },
+     " Awwwards & FWA"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/flipaclip/screenshot/4.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/flipaclip/screenshot/5.jpg"
+    }
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Marcos Meson",
+    "role": "Co-Founder and VP of Marketing",
+    "text": [
+     {
+      "p": [
+       "On behalf of the FlipaClip App team, I would like to thank Cuberto for the successful collaboration and development of FlipaClip.com. Cuberto proved to be a reliable and responsible partner that we were comfortable collaborating with."
+      ]
+     }
+    ]
+   }
+  ],
+  "name": "Flipaclip",
+  "title": [
+   "The best tool ",
+   {
+    "tag": "span",
+    "children": [
+     "for stop-motion",
+     {
+      "br": "always"
+     },
+     " animation"
+    ]
+   }
+  ],
+  "next": "riyadh",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/riyadh/cover.mp4"
+  }
+ },
+ {
+  "slug": "riyadh",
+  "metaTitle": "Riyadh | Cuberto Projects",
+  "metaDescription": "We were entrusted with developing a new website for Riyadh, Saudi Arabia's rapidly growing capital of 6.5 million people, in collaboration with top local agency AXIS.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/riyadh/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "We were entrusted with developing a brand new website for Saudi Arabia’s capital, Riyadh, in collaboration with AXIS, a top-tier local agency. Riyadh is a modern, rapidly expanding metropolis with a population of 6.5 million people. Not many companies in the world can say that they have taken on projects of this size and complexity, but Cuberto sure can."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://riyadh.sa/"
+     },
+     {
+      "label": "App store",
+      "href": "https://itunes.apple.com/us/app/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A7%D9%84%D9%84%D8%AD%D8%B8%D8%A9/id1289126095"
+     },
+     {
+      "label": "Google Play",
+      "href": "https://play.google.com/store/apps/details?id=com.ada.riyadh.moment"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/riyadh/screenshot/1.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "2 years of work",
+     {
+      "br": "desktop"
+     },
+     " 2 versions of the site"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "2 years of work",
+      {
+       "br": "desktop"
+      },
+      " 2 versions of the site"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "A city this size requires a site that can withstand massive server loads. Our team relied on only the most current technologies for developing the server. Citizens will discover plenty of useful information about their city on the new site, and it’s also targeted to attract business and tourism."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/1.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Overview of current events and city highlights"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/2.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "Overview of the city’s arts and culture scene"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/3.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "Overview of openings, festivals, conferences, and religious events"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/4.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Arabic and English",
+     {
+      "br": "desktop"
+     },
+     " versions of the site"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/riyadh/screenshot/2.mp4"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "The site empowers",
+     {
+      "br": "desktop"
+     },
+     " tourists to discover",
+     {
+      "br": "desktop"
+     },
+     " the city’s potential"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "The site empowers",
+      {
+       "br": "desktop"
+      },
+      " tourists to discover",
+      {
+       "br": "desktop"
+      },
+      " the city’s potential"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "There are six primary sections on the site that describe in detail Riyad’s features and provide a complete picture of the metropolis, including history and must-see sites."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/5.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "The history of Riyad’s development starting in 1931"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/6.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/7.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Interactive",
+     {
+      "br": "always"
+     },
+     " city map"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Interactive",
+      {
+       "br": "desktop"
+      },
+      " city map"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "One of the site’s key functions is The Moment. This interactive city map includes all the business centers with panoramas and 3D imaging."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/riyadh/screenshot/3.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/8.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "The Riyadh Moment mobile app has the AR function"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/9.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/10.jpg"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/11.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/12.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "You can check out the city blueprint and future building projects on the app"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/13.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/riyadh/splitshow/14.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "The official portal",
+     {
+      "br": "desktop"
+     },
+     " for citizens and tourists"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/riyadh/screenshot/4.jpg"
+    }
+   }
+  ],
+  "name": "Riyadh",
+  "title": [
+   "Official website",
+   {
+    "br": "desktop"
+   },
+   " of Riyadh, Saudi",
+   {
+    "br": "desktop"
+   },
+   " Arabia's capital"
+  ],
+  "next": "qvino",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/qvino/cover.mp4"
+  }
+ },
+ {
+  "slug": "qvino",
+  "metaTitle": "Qvino | Cuberto Projects",
+  "metaDescription": "We were tasked with creating Qvino, a global digital platform to aggregate thousands of winemakers for direct sales and promotion to consumers.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/qvino/main.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "We were tasked to create a global digital platform Qvino that would aggregate thousands of winemakers for direct sales and promotion to the final consumers."
+      ]
+     },
+     {
+      "p": [
+       "Several factors prompted the creation of this product:"
+      ]
+     },
+     {
+      "ul": [
+       [
+        "The digital gap in the wine industry;"
+       ],
+       [
+        "Lack of digital solutions on the market;"
+       ],
+       [
+        "Difficulties in the daily selection of wines;"
+       ],
+       [
+        "Underdeveloped wine culture;"
+       ],
+       [
+        "Limited range of wines in offline;"
+       ],
+       [
+        "No place where wine professionals can come together."
+       ]
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "App store",
+      "href": "https://apps.apple.com/us/app/qvino-your-personal-sommelier/id1614805374"
+     },
+     {
+      "label": "Google Play",
+      "href": "https://play.google.com/store/apps/details?id=com.qvino.qvinoapp&hl=en"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/qvino/screenshot/1.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product overview"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product overview"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Qvino is not only a marketplace but a digital platform with 4 levels of mastery in the learning program. In a nutshell, the product is focused on recommending the most relevant wine, delivery options and educating on the wine culture when desired."
+      ]
+     },
+     {
+      "p": [
+       "In addition to the basic functionality like smart wine selections and wine marketplace there is an in-built neutral network that recognises wine labels from photos and provides exhaustive info about each one. Moreover users can add each wine to a comparison to make a final choice."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Creating a brand from scratch based on strategies, target audience and the wine community"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/qvino/splitshow/2.mp4"
+        }
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/3.jpg"
+        },
+        "caption": [
+         "Establishing a new brand style that would become a basis for the main product design"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/4.png"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Opportunity for wineries",
+     {
+      "br": "desktop"
+     },
+     " and consumers"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Opportunity for",
+      {
+       "br": "desktop"
+      },
+      " wineries and consumers"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "The main audience are wine lovers desirous to learn more about wine, and to understand, learn and try something new, through Qvino targeted tips to choose the \"right wine\"."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/qvino/screenshot/2.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Development app",
+     {
+      "br": "desktop"
+     },
+     " for iOS and Android"
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/5.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/6.jpg"
+        },
+        "caption": [
+         "User can buy any wine for sale in the app and all wines from the cart will be split into separate orders"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/7.jpg"
+        },
+        "caption": [
+         "Wine catalog with easy-to-use filter and critics’ ratings"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/8.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/qvino/splitshow/9.mp4"
+        },
+        "caption": [
+         "Qvino neural network recognizes wine labels from photos and provides exhaustive info about each one"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/10.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/11.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/12.jpg"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/qvino/screenshot/3.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/13.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/14.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/15.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Qvino provides an opportunity to create limited NFT collections tokens for your wines, creating additional demand among winelovers and collectors"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/16.jpg"
+        }
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/qvino/splitshow/17.mp4"
+        },
+        "caption": [
+         "Each wine can be affixed with a unique QR code protecting it from counterfeiting"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/18.jpg"
+        },
+        "size": "md"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/19.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/qvino/splitshow/20.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Audience need"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Audience need"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "“I’m keen on knowing about wine culture. I would like to have a better understanding of wines in order to find what I really like.”"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/qvino/screenshot/4.jpg"
+    }
+   }
+  ],
+  "name": "Qvino",
+  "title": [
+   "Wine marketplace",
+   {
+    "br": "always"
+   },
+   " with interactive",
+   {
+    "br": "always"
+   },
+   " learning"
+  ],
+  "next": "potion",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/potion/cover.mp4"
+  }
+ },
+ {
+  "slug": "potion",
+  "metaTitle": "Potion | Cuberto Projects",
+  "metaDescription": "Redesign, complete rebranding, a new corporate identity, and a fresh look at the Potion product.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/potion/main.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "The task seemed quite trivial – the customer's site had become outdated, so the agency's main mission was to redesign it. But, not just a redesign was needed here, but a complete rebranding, a new corporate identity, and a fresh look at the Potion product."
+      ]
+     },
+     {
+      "p": [
+       "We had to analyze the old version of the site, think about the general concept of brand promotion, improve the visual component and place the right accents to keep the audience on the new site."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://www.sendpotion.com/"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/potion/screenshot/1.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product goals",
+     {
+      "br": "desktop"
+     },
+     " and objectives"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product goals",
+      {
+       "br": "desktop"
+      },
+      " and objectives"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Potion is a simple but effective sales tool for increasing conversions from cold leads and emails. Work on the rebranding and creative concept of the site has been going simultaneously. We wanted corporate identity elements to form the basis of the new site."
+      ]
+     },
+     {
+      "p": [
+       "Potion allows you to create videos with different types of greetings, and you can highlight some of the text in the video and personalize them. Potion uses AI technology that automatically generates personalized videos for each prospect. That is, a certain “magic” symbolizes the name Potion. We developed this idea further and decided we would have a cat in a witch's hat that brews a potion."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Not just a redesign was needed here, but a complete rebranding and a new corporate identity"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/potion/splitshow/2.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "We got the idea of using a friendly character as a kind of Potion user who speaks to his audience"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/3.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/potion/splitshow/4.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "For one of the parts, we created an animation with coloured bubbles that symbolise phrases from the video"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Diary notes"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Diary notes"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "As for the development itself, it is based on the lightweight Bona microframework. We have been using an excellent and productive solution from GreenSock as an animation platform for several years."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/potion/screenshot/2.png"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Responsive",
+     {
+      "br": "desktop"
+     },
+     " web design"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/potion/screenshot/3.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/5.png"
+        },
+        "size": "sm",
+        "caption": [
+         "With more devices come varying screen resolutions, definitions and orientations"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/6.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Fluid grid system – elements occupy the same percentage of space however large or small the screen becomes"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/7.png"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/potion/splitshow/8.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "It’s not only about adjustable screen resolutions and automatically resizable images, but rather about a whole new way of thinking about design"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/9.png"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/10.png"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/potion/screenshot/4.png"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/11.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/12.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/13.png"
+        }
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/14.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/15.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/potion/splitshow/16.png"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Site of the Day",
+     {
+      "br": "always"
+     },
+     " Awwwards & FWA"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/potion/screenshot/5.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/potion/screenshot/6.jpg"
+    }
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Kanad Bahalkar",
+    "role": "Founder",
+    "text": [
+     {
+      "p": [
+       "Cuberto was engaged in developing our website and additional marketing materials, including theming and various creative assignments. Their efforts were highly satisfactory, and we were impressed with the Cuberto team's collaborative approach. Their team were amiable and accommodating to all of our requests, and also provided invaluable creative direction to the project."
+      ]
+     }
+    ],
+    "review": "https://goo.gl/maps/GFZ4eynSCtzShuye7"
+   }
+  ],
+  "name": "Potion",
+  "title": [
+   "Sales tool",
+   {
+    "br": "always"
+   },
+   " for increasing",
+   {
+    "br": "always"
+   },
+   " conversions"
+  ],
+  "next": "cisco",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/cisco/cover.mp4"
+  }
+ },
+ {
+  "slug": "cisco",
+  "metaTitle": "Cisco | Cuberto Projects",
+  "metaDescription": "We completed the development and design for 18 system sections, built a full UI kit including illustrations, typography, and specs for all components.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/cisco/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "An internal system for an organization’s digital analytics, based on cloud solutions. The platform enables monitoring all data flow, passing through local and wide area networks. Our team spent 10 months redesigning the platform. We completed the development and design for 18 system sections, built a full UI kit including illustrations, typography, and specs for all components."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/cisco/screenshot/1.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Platform Redesign",
+     {
+      "br": "desktop"
+     },
+     " So Now"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Platform Redesign"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "The platform features a multiplicity of functions and manages all the corporation’s data. Cisco turned to us for an of-the-moment visual solution since the current style had become outdated. We also added new functions that the previous design couldn't support."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/cisco/screenshot/2.jpg"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/cisco/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "In-corporation security management called for an imaginative approach"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/cisco/splitshow/2.jpg"
+        },
+        "size": "md"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/cisco/splitshow/3.jpg"
+        },
+        "size": "md",
+        "caption": [
+         "Our step-by-step method let us scale the new design across all sections"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/cisco/splitshow/4.png"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Creation of",
+     {
+      "br": "desktop"
+     },
+     " a design system"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Creation of a design system"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Our final flourish was transferring models to engineers. Side by side, Cisco’s and Cuberto’s teams collected specs and outlined all possible scenarios for adding elements and blocks for new pages."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/cisco/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/cisco/screenshot/4.jpg"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/cisco/splitshow/5.jpg"
+        },
+        "size": "md",
+        "caption": [
+         "It’s a breeze to assemble new pages from blocks and components"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/cisco/splitshow/6.jpg"
+        },
+        "size": "md"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Duane Barlow",
+    "role": "Principal Engineer",
+    "text": [
+     {
+      "p": [
+       "On behalf of the Cisco - Tetration team, I would like to thank Cuberto for the very successful collaboration and design contribution to our product. Our teams worked in sync, and we did not experience any discomfort in communication."
+      ]
+     }
+    ]
+   }
+  ],
+  "name": "Cisco",
+  "title": [
+   "Cloud based",
+   {
+    "br": "desktop"
+   },
+   " network management"
+  ],
+  "next": "kzero",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/kzero@2x.jpg"
+  }
+ },
+ {
+  "slug": "kzero",
+  "metaTitle": "Kelvin Zero | Cuberto Projects",
+  "metaDescription": "Kelvin Zero was another challenge for our team. Undoubtedly, this project deserves a place among our most significant accomplishments.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/kzero/main.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Kelvin Zero was another challenge for our team. Undoubtedly, this project deserves a place among our most significant accomplishments."
+      ]
+     },
+     {
+      "p": [
+       "The task was to completely rethink how product information is presented in the security domain, specifically in managing employee access within the financial sector and government institutions."
+      ]
+     },
+     {
+      "p": [
+       "We created a storytelling website that literally immerses users in the depth of the flagship product, Multi-Pass Pro, and showcases all its benefits."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://kzero.com/"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/kzero/screenshot/1.jpg"
+    },
+    "label": "Old site"
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/kzero/screenshot/2.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product overview"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product overview"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Passwords come with inherent vulnerabilities due to the prevalence of weak passwords, password reuse, and social engineering attacks. Kelvin Zero incorporates advanced features like biometric sign-in and passwordless authentication, providing a more secure and convenient way for users to verify their identity. This method eliminates the need for passwords and the associated risks, making it a popular choice for organizations looking to improve security, productivity, and user experience for their consumers and workforce."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/kzero/splitshow/1.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "The logo only needed a little tweaking, but a tonne of marketing material was done besides that"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/2.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "The main concept of the website is storytelling about the product, where initially the user sees only the tip of the iceberg"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/3.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/4.jpg"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Ensuring trust in the digital world"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Ensuring trust in the",
+      {
+       "br": "desktop"
+      },
+      " digital world"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Kelvin Zero is a technology leader revolutionizing digital security with next-gen passwordless solutions built for critical organizations. With, Multi-Pass Pro, they are helping organizations eliminate passwords and enable secure access with phishing resistant MFA."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/kzero/screenshot/3.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Responsive",
+     {
+      "br": "desktop"
+     },
+     " web design"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/kzero/screenshot/4.jpg"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/5.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Despite the 3d objects being quite complex, we managed to keep all the animations for mobile resolution without losing any performance"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/kzero/splitshow/6.mp4"
+        },
+        "size": "ms"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/7.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/kzero/splitshow/8.mp4"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/9.png"
+        },
+        "size": "xs"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/10.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "The website was tested across all resolutions and key browsers"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/kzero/splitshow/11.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "Complex 3D scenes were individually crafted for desktop and mobile resolutions to optimize performance"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/12.jpg"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "CMS Wordpress",
+     {
+      "br": "desktop"
+     },
+     " and tech stack"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/kzero/screenshot/5.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/13.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/14.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/15.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "CMS Wordpress does not affect the operation of the site in any way and we use this framework for the convenience of customers"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/16.jpg"
+        },
+        "size": "ms"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/kzero/splitshow/17.mp4"
+        },
+        "size": "xs",
+        "caption": [
+         "For content editing and blog management, we have integrated CMS Wordpress with additional settings"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/18.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/kzero/splitshow/19.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "For this project development we used our standard tech stack, including GSAP, ScrollTrigger and Three.js, and Lenis smooth scrolling library"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/kzero/splitshow/20.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Site of the Day",
+     {
+      "br": "always"
+     },
+     " Awwwards & FWA"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/kzero/screenshot/6.mp4"
+    }
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Nicholas Tsoukas",
+    "role": "Product owner",
+    "text": [
+     {
+      "p": [
+       "Thanks to Cuberto, we now boast a compelling brand identity and a user experience that truly resonates with our audience. The project presented numerous challenges, and our specific requirements were certainly demanding. We’re genuinely impressed with the creativity and rigor Cuberto brought to the table."
+      ]
+     }
+    ]
+   }
+  ],
+  "name": "Kelvin Zero",
+  "title": [
+   "A digital product",
+   {
+    "br": "desktop"
+   },
+   " for passwordless authentication"
+  ],
+  "next": "magma",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/magma@2x.jpg"
+  }
+ },
+ {
+  "slug": "magma",
+  "metaTitle": "Magma | Cuberto Projects",
+  "metaDescription": "This is one of our most complex websites, challenging not only because it aimed to be award-winning but also due to the highly specialized and difficult-to-present field.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/magma/main.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "This is one of the most complex websites we have ever built. The difficulty was not only in the fact that it should have become an award winning website, but also in the fact that the field of activity is very specific and difficult to present."
+      ]
+     },
+     {
+      "p": [
+       "The client came to us with a fairly clear vision and detailed description. The problem was visualizing the idea. We had to completely rebrand the company and reach a wide audience with the new website."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://thisismagma.com/"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/magma/screenshot/1.png"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product goals",
+     {
+      "br": "desktop"
+     },
+     " and objectives"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product goals",
+      {
+       "br": "desktop"
+      },
+      " and objectives"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Magma is a Web3 platform for all real estate stakeholders, which provides users with the ability to manage interactions between physical and digital assets through unique, and collectively generated, 3D representations of their buildings."
+      ]
+     },
+     {
+      "p": [
+       "Magma uses blockchain technology to record essential data, which enables transparent, traceable, and immutable streams of information to be readily accessible to its users. Magma smart contracts are built with this blockchain data to expedite tasks like requests for proposals, lease agreements, and services arrangements."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The logo only needed a little tweaking, but a tonne of marketing material was done besides that"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/2.png"
+        },
+        "size": "sm",
+        "caption": [
+         "We made a 3D model of a well-known building and prepared several external and internal renders"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/3.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/magma/splitshow/4.mp4"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Real estate and",
+     {
+      "br": "desktop"
+     },
+     " the Web3 Revolution"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Technology stack"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Magma project is based on our regular technology stack, which we use for all of our projects. It includes our internal Bona framework, the GSAP library for animations, ScrollTrigger for the creation of scroll-based animations, and the SmoothScroll library."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/magma/screenshot/2.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Responsive",
+     {
+      "br": "desktop"
+     },
+     " web design"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/magma/screenshot/3.png"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/magma/splitshow/5.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "Despite the 3d objects being quite complex, we managed to keep all the animations for mobile resolution without losing any performance"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/6.png"
+        },
+        "size": "ms"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/magma/splitshow/7.mp4"
+        },
+        "size": "ms",
+        "caption": [
+         "As part of the work on the site, we created a large set of unique 3D illustrations in the same style"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/8.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/9.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/10.png"
+        },
+        "size": "sm",
+        "caption": [
+         "When creating scenes with the assembly of a building and its flyby, we used the technique we have already tested - import models, cameras and object movements in GLB/GLTF format from a project created in Blender app"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/11.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "We often add lottie animations for illustrations to bring them to life and this project is no exception"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/12.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "CMS Wordpress",
+     {
+      "br": "desktop"
+     },
+     " and control panel"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/magma/screenshot/4.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/magma/splitshow/13.mp4"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/14.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "CMS Wordpress does not affect the operation of the site in any way and we use this framework for the convenience of customers"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/15.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/16.png"
+        },
+        "size": "ms"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/17.png"
+        },
+        "size": "sm",
+        "caption": [
+         "For content editing and blog management, we have integrated CMS Wordpress with additional settings"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/magma/splitshow/18.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/magma/splitshow/19.mp4"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/magma/splitshow/20.mp4"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Site of the Day",
+     {
+      "br": "always"
+     },
+     " Awwwards & FWA"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/magma/screenshot/5.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/magma/screenshot/6.jpg"
+    }
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Emre Palandöken",
+    "role": "Product owner",
+    "text": [
+     {
+      "p": [
+       "Thanks to the Cuberto team for their professionalism and collaboration. We contacted Cuberto for a website creation and we are pleased of the work that has been done. Strongly recommended!"
+      ]
+     }
+    ],
+    "review": "https://goo.gl/maps/9nLhQc6WnPVarrYQ9"
+   }
+  ],
+  "name": "Magma",
+  "title": [
+   "The ultimate tool",
+   {
+    "br": "desktop"
+   },
+   " for building in",
+   {
+    "br": "desktop"
+   },
+   " the Web3 era"
+  ],
+  "next": "ferrumpipe",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/ferrumpipe@2x.jpg"
+  }
+ },
+ {
+  "slug": "ferrumpipe",
+  "metaTitle": "Ferrumpipe | Cuberto Projects",
+  "metaDescription": "When developing Ferrumpipe, we aimed to create a unique content presentation, different from the massive competitor sites, to highlight the unique technology behind galvanized steel frame production.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/ferrumpipe/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Ferrumpipe is a partner of the largest metallurgical plant “Severstal”, that supplies galvanized metal for its needs. The production occupies 5000 square meters and owns the most modern equipment for the manufacture of all types of fences. Their old website has not been updated since 2014 and our task was to make a good-looking website with a demonstration of the entire production line. Also, at that time the company was launched on the foreign market and the site had to correspond to the international level in terms of the visual concept."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://ferrumpipe.demo.cubdev.com/"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/ferrumpipe/screenshot/1.mp4"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Unconventional",
+     {
+      "br": "desktop"
+     },
+     " approach"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Unconventional",
+      {
+       "br": "desktop"
+      },
+      " approach"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "You can hardly find another similar site in this industry. When developing Ferrumpipe, we looked at many sites and they all looked quite massive. The main problem was to come up with an alternative idea of content presentation, different from competitors and to tell about the unique technology for the production of galvanized steel frames."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/1.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Instead of photographs, we decided to use 3D models for all products"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/2.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/3.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The main color of the site is green. This is the most popular color for painted frames"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/4.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/5.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "The advantage of 3D models is that we could render details in the view we need"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/6.png"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/7.png"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Production",
+     {
+      "br": "desktop"
+     },
+     " technology in detail"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Production",
+      {
+       "br": "desktop"
+      },
+      " technology in detail"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Thanks to 3D and customer's schemes, we were able to reproduce the production technology of these frames. It is based on a folded seam and this technology does not require welding, which distinguishes Ferrumpipe from other manufacturers."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/ferrumpipe/screenshot/2.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Tech stack:",
+     {
+      "br": "desktop"
+     },
+     " HTML, CSS, JS, GSAP and",
+     {
+      "br": "desktop"
+     },
+     " Sequence Animation"
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/8.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Our specialists filmed and edited the video of the full production cycle at the facility itself"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/9.png"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/10.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ferrumpipe/splitshow/11.png"
+        },
+        "size": "ml",
+        "caption": [
+         "We have made a separate lightweight version for smartphones"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/ferrumpipe/screenshot/3.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Site of the Day",
+     {
+      "br": "desktop"
+     },
+     " by Awwwards, FWA and",
+     {
+      "br": "desktop"
+     },
+     " CSS Design Awards"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Site of the Day",
+      {
+       "br": "always"
+      },
+      " by Awwwards, FWA and",
+      {
+       "br": "always"
+      },
+      " CSS Design Awards"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "At Ferrumpipe you will not find the boring and corporate ethics that we often see on many similar sites. The site has received high marks internationally for its chosen approach and presentation of information, which significantly increases user engagement."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/ferrumpipe/screenshot/4.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/ferrumpipe/screenshot/5.jpg"
+    }
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Yuri Podnebesov",
+    "role": "Chief Technology Engineer",
+    "text": [
+     {
+      "p": [
+       "It was a great pleasure working with Cuberto team. Previously we had only out-dated website created in mid 2000th, we were excited to create new one but had no idea how to do it, no thoughts regards the visuals and ways how to present our company and production."
+      ]
+     }
+    ]
+   }
+  ],
+  "name": "Ferrumpipe",
+  "title": [
+   "Galvanized steel",
+   {
+    "br": "desktop"
+   },
+   " metal frame",
+   {
+    "br": "desktop"
+   },
+   " manufacturer"
+  ],
+  "next": "nurseclub",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/nurseclub@2x.png"
+  }
+ },
+ {
+  "slug": "nurseclub",
+  "metaTitle": "Nurse CE Club | Cuberto Projects",
+  "metaDescription": "After 4 years, the client got ready for a complete redesign of the website, including rethinking the website structure, developing a new style and creating unique 3D characters.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/nurseclub/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "This is not the first time that Nurse CE Club has reached out to us for a website revamp. The very first time we worked on the client's website was in far 2020 resulting in the creation of various graphic elements."
+      ]
+     },
+     {
+      "p": [
+       "After 4 years, the client got ready for a complete redesign of the website, including rethinking the website structure, developing a new style and creating unique 3D characters. Additionally, it was required to come up with and create illustrations for all course categories available in the product."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://exclamationce.com/"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/nurseclub/screenshot/1.mp4"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Product overview"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Product overview"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Nurse CE Club offers high quality online continuing education to enhance nursing practice and improve patient care. The company is accredited nationally and approved by the American Nurses Credentialing Centre's Commission on Accreditation (ANCC)."
+      ]
+     },
+     {
+      "p": [
+       "Nurse CE Club has over 200 contact hours across a wide variety of relevant nursing professional development topics."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/1.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "A set of 3D illustrations was developed for the site, supporting the overall style of the brand"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/2.jpg"
+        },
+        "size": "ms"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/3.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Redesigned the structure of the homepage and prioritised the blocks, increasing the conversion rate of online course subscriptions"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/4.jpg"
+        },
+        "size": "ms",
+        "caption": [
+         "We pay special attention to the mobile version and check the site on various devices"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "200+ contact hours",
+     {
+      "br": "desktop"
+     },
+     " course catalog"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "200+ contact hours",
+      {
+       "br": "desktop"
+      },
+      " course catalog"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Nurse CE Club offers online continuing education courses in a self-study format. Each course is broken down by topic and includes a multiple-choice exam."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/nurseclub/screenshot/2.png"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Creative concept & motion design"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/nurseclub/screenshot/3.png"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/5.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "The site is fully interactive, which greatly improves the user experience"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/6.mp4"
+        },
+        "size": "ms",
+        "caption": [
+         "Despite the 3d objects being quite complex, we managed to keep all the animations for mobile resolution without losing any performance"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/7.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/8.jpg"
+        },
+        "size": "ms"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/9.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/10.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/11.jpg"
+        },
+        "size": "ms"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/12.png"
+        },
+        "size": "ms"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "3d graphics",
+     {
+      "br": "desktop"
+     },
+     " assets"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/nurseclub/screenshot/4.mp4"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/13.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "As part of the work on the site, we created a large set of unique 3D illustrations in the same style"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/14.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/15.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/16.jpg"
+        },
+        "size": "ms"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/17.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/18.jpg"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/19.mp4"
+        },
+        "size": "sm",
+        "caption": [
+         "We often add lottie animations for illustrations to bring them to life and this project is no exception"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/nurseclub/splitshow/20.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Michael Harris",
+    "role": "President",
+    "text": [
+     {
+      "p": [
+       "We have worked with Cuberto for several projects now including both mobile and web UX/UI designs. Stephan and his team has been great to work with and we are really happy with the process and the end results/deliverables. We will continue to work with them on new projects!"
+      ]
+     }
+    ],
+    "review": "https://maps.app.goo.gl/YGvPCzuMAjLyWXg7A"
+   }
+  ],
+  "name": "Nurse CE Club",
+  "title": [
+   "Nurse CE Club",
+   {
+    "br": "desktop"
+   },
+   "site revamp with",
+   {
+    "br": "desktop"
+   },
+   " 3D graphics"
+  ],
+  "next": "ulesson",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/ulesson@2x.png"
+  }
+ },
+ {
+  "slug": "ulesson",
+  "metaTitle": "uLesson | Cuberto Projects",
+  "metaDescription": "We explored many design concepts, creating a memorable design for both mobile and desktop applications, and built the website from scratch.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/ulesson/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "uLesson is a one of a kind product. It brings together multimedia and technological solutions to create an exceptional learning experience for African students. The startup collected 3.1 million dollars in the seed funding round. Boasting extremely progressive goals, the platform aims to raise the level of education in African countries. uLesson provides students the tools to unlock their fullest potential with the help of personalized learning on mobile devices."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://ulesson.com/"
+     },
+     {
+      "label": "Google Play",
+      "href": "https://play.google.com/store/apps/details?id=com.ulesson"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/ulesson/screenshot/1.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Unique",
+     {
+      "br": "desktop"
+     },
+     " experience"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Unique",
+      {
+       "br": "desktop"
+      },
+      " experience"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "It was truly a novel experience for us to participate in an ambitious, large-scale project like uLesson. Our team partly took on the job of market research, strategy elaboration, development, and of course, getting creative with visuals. Cuberto worked through dozens of design concepts throughout the lengthy collaborative process and successfully created an unforgettable design for the mobile and desktop application. Oh, and did we mention that we built the website from scratch?"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/1.png"
+        },
+        "size": "ml",
+        "caption": [
+         "uLesson features practical tests in multiple subjects"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/2.png"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/3.png"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/4.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The release package includes a digital key and an SD card"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/5.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The app is intended for students and their parents"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/6.png"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "High-quality",
+     {
+      "br": "desktop"
+     },
+     " alternative to tutors"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/ulesson/screenshot/2.mp4"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Supplement to",
+     {
+      "br": "desktop"
+     },
+     " in-class learning"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Supplement to",
+      {
+       "br": "desktop"
+      },
+      " in-class learning"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "The services and functions of uLesson are linked to its mobile application which lets users register, pass tests, and evaluate their learning progress."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/ulesson/screenshot/3.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/7.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Thousands of educational videos, interactive animations, tests, and grades"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/8.png"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/9.png"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/10.png"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/11.png"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/ulesson/splitshow/12.png"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Report cards",
+     {
+      "br": "desktop"
+     },
+     " for parents"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Report cards",
+      {
+       "br": "desktop"
+      },
+      " for parents"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "The platform offers parents or guardians analytical and data reports to help guide the child’s progress, improve the learning process, and add new subjects."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/ulesson/screenshot/4.jpg"
+    }
+   }
+  ],
+  "name": "uLesson",
+  "title": [
+   "Online platform",
+   {
+    "br": "desktop"
+   },
+   " for distance",
+   {
+    "br": "desktop"
+   },
+   " learning"
+  ],
+  "next": "sleepiest",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/sleepiest@2x.png"
+  }
+ },
+ {
+  "slug": "sleepiest",
+  "metaTitle": "Sleepiest | Cuberto Projects",
+  "metaDescription": "Our team worked with Sleepiest, auditioning numerous design concepts to find the perfect solution that enhanced design while maintaining familiar user interactions.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/sleepiest/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Redesigning a mobile app with a multi-million user base is always a big responsibility. Users sometimes react negatively to changes in interactions that have become familiar, which can bring down ratings. Our team worked with Sleepiest to audition dozens of design concepts until we found the perfect solution for improving the design while keeping users comfortable with familiar interactions."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://www.sleepiest.com/"
+     },
+     {
+      "label": "App store",
+      "href": "https://apps.apple.com/app/sleepiest-the-sleeping-app/id1244690083"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/sleepiest/screenshot/1.mp4"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Careful",
+     {
+      "br": "desktop"
+     },
+     " rebranding"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/sleepiest/screenshot/2.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Our first task was to give a makeover to Sleepiest’s logotype and corporate identity"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/2.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "The illustration style went through several phases and multiple iterations"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/3.png"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/4.png"
+        },
+        "size": "ml",
+        "caption": [
+         "We spruced up and cleaned up the lettering"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/5.png"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "The design will not",
+     {
+      "br": "desktop"
+     },
+     " leave you cold"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "The design will not",
+      {
+       "br": "desktop"
+      },
+      " leave you cold"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Plenty of illustrations and icons, bright hues, and micro animated functional elements all come together to really set a creative mood and submerge the user in the app’s special atmosphere."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/sleepiest/screenshot/3.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Extra attention",
+     {
+      "br": "desktop"
+     },
+     " to detail development"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Extra attention",
+      {
+       "br": "desktop"
+      },
+      " to detail development"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Our team really got into the application’s mood. We were motivated to focus on every little detail including icon animation, to really enhance the user interaction."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/sleepiest/screenshot/4.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Every element",
+     {
+      "br": "desktop"
+     },
+     " made with love"
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/6.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "The app lets you make your own sounds"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/7.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "Gorgeous and effortless sleep tracker stands out from the usual boring graphics"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/8.mp4"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/9.png"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/10.mp4"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/11.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "Sleeping well has never been more fun when you can earn points and get rewards"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/12.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "From colors to tone styles to background effects, everything is meticulously thought out"
+        ]
+       },
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/sleepiest/splitshow/13.mp4"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/sleepiest/screenshot/5.jpg"
+    }
+   }
+  ],
+  "name": "Sleepiest",
+  "title": [
+   "Sleep app that",
+   {
+    "br": "desktop"
+   },
+   " helps millions fall asleep every night"
+  ],
+  "next": "genesis",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/genesis@2x.png"
+  }
+ },
+ {
+  "slug": "genesis",
+  "metaTitle": "Genesis Vision | Cuberto Projects",
+  "metaDescription": "We developed Genesis Vision, a blockchain-based web platform designed for private trust management.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/genesis/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Genesis Vision is a blockchain based web platform for private trust management. Its unique ecosystem unifies brokers, traders, and investors, spanning all financial markets, GV funds, GV programs, and GV Follow functionality. At the core is smart contract technology supporting an automatic and completely transparent system for investment and profit distribution."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "App store",
+      "href": "https://apps.apple.com/app/genesis-vision-investor/id1369865290"
+     },
+     {
+      "label": "Google Play",
+      "href": "https://play.google.com/store/apps/details?id=vision.genesis.clientapp.investor"
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/genesis/splitshow/1.mp4"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/2.png"
+        }
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/3.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/genesis/screenshot/1.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Probably the best",
+     {
+      "br": "desktop"
+     },
+     " broker community"
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/4.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/5.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/6.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/7.png"
+        },
+        "size": "sm",
+        "caption": [
+         "GV Follow is the key component of the social trading position"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/8.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Extensive application",
+     {
+      "br": "desktop"
+     },
+     " functionality"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Extensive application",
+      {
+       "br": "desktop"
+      },
+      " functionality"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "The GV Follow functionality, an option to create a portfolio, and an option to view the trading account. All the trading tools you need are accessible in the mobile application (Crypto, Forex, CFD, and others)."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/genesis/screenshot/2.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Long-term",
+     {
+      "br": "desktop"
+     },
+     " collaboration"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Long-term",
+      {
+       "br": "desktop"
+      },
+      " collaboration"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "We value every single client and do our best to offer multiple options for working together in a way that makes everyone happy. The most reliable and mutually beneficial way is when the client trusts in your expertise and you can meet multiple needs during the course of a long term working relationship. Genesis Vision gave us that opportunity to show them what we can do."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/genesis/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Genesis",
+     {
+      "br": "desktop"
+     },
+     " Markets Global"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Genesis",
+      {
+       "br": "desktop"
+      },
+      " Markets Global"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "The instrument panel shows a summary of investment and trading account information. Full integration with the B2Broker liquidity pool, which significantly widens the list of assets."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/9.jpg"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/10.png"
+        },
+        "size": "sm",
+        "caption": [
+         "The instrument panel includes investments and trading accounts"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/11.png"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/12.jpg"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/genesis/splitshow/13.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/genesis/screenshot/4.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Experience",
+     {
+      "br": "desktop"
+     },
+     " is everything"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Experience",
+      {
+       "br": "desktop"
+      },
+      " is everything"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Cuberto has been specializing in creating intricate trading platforms since 2010. In Genesis Vision, we achieved the most convenient solutions and offered novel tools for representing data."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/genesis/screenshot/5.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/genesis/screenshot/6.jpg"
+    }
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Dmitri Nazarov",
+    "role": "CEO",
+    "text": [
+     {
+      "p": [
+       "Genesis Vision Team would like to express our sincere gratitude to the Cuberto team for cooperation, excellent work and high-level professionalism. We ordered branding, web design and mobile app design. Cuberto designers are extraordinary productive specialists and are creative in solving all assigned tasks."
+      ]
+     }
+    ]
+   }
+  ],
+  "name": "Genesis Vision",
+  "title": [
+   "Private trust management and trading platform"
+  ],
+  "next": "wickret",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/wickret@2x.png"
+  }
+ },
+ {
+  "slug": "wickret",
+  "metaTitle": "Wickret | Cuberto Projects",
+  "metaDescription": "We developed the design and website for Wickret and completely met our goal. Wickret’s site now features gamification, distinctiveness, and visually satisfying interactions.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/wickret/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Wickret offers contemporary solutions for user interaction with mobile banking. Managing money becomes fun and totally stress free. Our job was to research the big players in the field and come up with our own innovative ideas aimed at attracting an audience and internal gamification."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://wickret.cuberto.com/"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/wickret/screenshot/1.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/wickret/splitshow/1.png"
+        },
+        "size": "sm",
+        "caption": [
+         "We refreshed the current logotype’s form and color"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/wickret/splitshow/2.png"
+        },
+        "caption": [
+         "Our team dreamed up a new corporate identity and updated the bank card design"
+        ]
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/wickret/splitshow/3.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/wickret/splitshow/4.png"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Site design reflects the",
+     {
+      "br": "desktop"
+     },
+     " product’s philosophy"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Site design reflects",
+      {
+       "br": "desktop"
+      },
+      " the product’s philosophy"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "We 100% met our goal and Wickret’s site reflects a product that includes gamification, uniqueness, and visual satisfaction during interaction."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/wickret/screenshot/2.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/wickret/splitshow/5.png"
+        },
+        "size": "ml",
+        "caption": [
+         "The content is presented in short blocks, which enhances reception"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/wickret/splitshow/6.png"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "video",
+         "src": "/sites/cuberto/cases/wickret/splitshow/7.mp4"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/wickret/splitshow/8.png"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/wickret/screenshot/3.mp4"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "New era in",
+     {
+      "br": "always"
+     },
+     " mobile banking"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/wickret/screenshot/4.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Site of the Day",
+     {
+      "br": "always"
+     },
+     " Awwwards & CSSDA"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Awards? What awards?"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "On Wickret, you won’t find that mind-numbing corporate aesthetic that characterizes so many similar sites. Wickret is aimed toward the future and received high marks in the global arena for its imaginative approach and the way it showcases information, attracting and delighting users."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/wickret/screenshot/5.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/wickret/screenshot/6.jpg"
+    }
+   }
+  ],
+  "name": "Wickret",
+  "title": [
+   "A new way",
+   {
+    "br": "desktop"
+   },
+   "to think about",
+   {
+    "br": "desktop"
+   },
+   " money"
+  ],
+  "next": "rallyreader",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/rallyreader@2x.jpg"
+  }
+ },
+ {
+  "slug": "rallyreader",
+  "metaTitle": "Rally Reader | Cuberto Projects",
+  "metaDescription": "We worked with Rally Reader for almost a year, providing app design, corporate identity, a promo video, a fully developed site, and marketing materials.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/rallyreader/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Rally Reader is an AI application that listens to you read, tracks word accuracy, highlights mistakes, and provides feedback in real time. Rally works for everyone, including those with dyslexia. It’s an especially clever aid for kids. Children with dyslexia sometimes read words incorrectly, and this app hears and corrects them. Rally highlights a tough word and breaks it up into syllables. Then it selects the compound word, arranges it according to syllables, and adds it to the list of complicated words. We wanted to shift a mentoring task from parents to the application. And you know what? We succeeded."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "App store",
+      "href": "https://apps.apple.com/app/id1459124176"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/rallyreader/screenshot/1.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/rallyreader/splitshow/1.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "The application casts a wide audience net, so the style isn’t limited to the user’s age"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/rallyreader/splitshow/2.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/rallyreader/splitshow/3.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "The color and design scheme fully support the app’s format"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/rallyreader/splitshow/4.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Not just",
+     {
+      "br": "desktop"
+     },
+     " another reader"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Not just",
+      {
+       "br": "desktop"
+      },
+      " another reader"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Our team is careful to take on projects that are truly useful and Rally Reader definitely falls into that category. The app helps people who find speech challenging, and we worked out an accessible design that demonstrates these functions."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/rallyreader/screenshot/2.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/rallyreader/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Long-term",
+     {
+      "br": "desktop"
+     },
+     " collaboration"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Long-term",
+      {
+       "br": "desktop"
+      },
+      " collaboration"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "We worked with Rally Reader for nearly a year and in that time completed app design and analytics, created a memorable corporate identity, produced a promo video, fully developed the site, and helped out with marketing materials and print production. What distinguishes an agency: you can check off all the essentials throughout product development."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/rallyreader/screenshot/4.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/rallyreader/splitshow/5.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Since the product is aimed at children, we decided to dream up a special character"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/rallyreader/splitshow/6.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/rallyreader/splitshow/7.jpg"
+        }
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/rallyreader/splitshow/8.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Meet the happy bears who can help children overcome reading hurdles with zero shyness or guilt"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/rallyreader/splitshow/9.jpg"
+        },
+        "size": "sm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/rallyreader/screenshot/5.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/rallyreader/screenshot/6.mp4"
+    }
+   },
+   {
+    "type": "feedback",
+    "caption": [
+     "Feedback",
+     {
+      "br": "desktop"
+     },
+     " from client"
+    ],
+    "name": "Andrea Johnson",
+    "role": "Co-Founder + CEO",
+    "text": [
+     {
+      "p": [
+       "We chose Cuberto to build our mobile app and website. They were fabulous, highly professional partners. Their work was wonderfully original, the account team was always responsive to feedback, and they delivered every aspect of the project on time and on budget. We look forward to working with them on the next phase of our product."
+      ]
+     }
+    ]
+   }
+  ],
+  "name": "Rally Reader",
+  "title": [
+   "Private reading",
+   {
+    "br": "desktop"
+   },
+   " coach that hears",
+   {
+    "br": "desktop"
+   },
+   " you read"
+  ],
+  "next": "consumervoice",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/consumervoice@2x.png"
+  }
+ },
+ {
+  "slug": "consumervoice",
+  "metaTitle": "ConsumerVoice | Cuberto Projects",
+  "metaDescription": "We developed the site and design for ConsumerVoice, an independent expert in reliable product feedback.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/consumervoice/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Consumer Voice is an independent expert specializing in reliable product feedback. In part this relates to purchasing products on Amazon, where some sellers post fake positive reviews to increase their ratings. Consumer Voice shows customers only real feedback and helps locate a specific product out of multiple categories with a subsequent purchase on Amazon."
+      ]
+     }
+    ],
+    "links": [
+     {
+      "label": "Launch project",
+      "href": "https://www.consumervoice.org/"
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/consumervoice/screenshot/1.mp4"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/consumervoice/screenshot/2.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/consumervoice/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/consumervoice/screenshot/4.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Intricate",
+     {
+      "br": "desktop"
+     },
+     " brand launch"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Intricate",
+      {
+       "br": "desktop"
+      },
+      " brand launch"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "The service was launched from the ground up and it was our job to develop a new corporate identity. A distinctively shaped message with an uppercase letter “C” was our visual solution for the logotype. The service is aimed at users that like to shop online, so our goal was to create a logotype that looks awesome on a website. To elaborate on Consumer Voice’s corporate identity, we developed a set of icons for every possible category of products and plenty of eye-catching illustrations."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/consumervoice/splitshow/1.jpg"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/consumervoice/splitshow/2.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/consumervoice/splitshow/3.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/consumervoice/splitshow/4.jpg"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/consumervoice/splitshow/5.jpg"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Site development",
+     {
+      "br": "desktop"
+     },
+     " and design"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Site development",
+      {
+       "br": "desktop"
+      },
+      " and design"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "The website design has a lightness of touch and super simplified steps for the essential functions. Users have the option to use Search from the main page, or search for their desired product by means of categories."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/consumervoice/screenshot/5.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Use your head",
+     {
+      "br": "desktop"
+     },
+     " to buy your stuff"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/consumervoice/screenshot/6.jpg"
+    }
+   }
+  ],
+  "name": "ConsumerVoice",
+  "title": [
+   "A service that",
+   {
+    "br": "desktop"
+   },
+   " helps find",
+   {
+    "br": "desktop"
+   },
+   " verified products"
+  ],
+  "next": "monmarche",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/monmarche@2x.png"
+  }
+ },
+ {
+  "slug": "monmarche",
+  "metaTitle": "Mon Marché | Cuberto Projects",
+  "metaDescription": "We designed the Mon Marché app, a home delivery service for fresh fruit and vegetables.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/monmarche/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Online food retailers have been gathering momentum for a long time, and COVID-19 has greatly contributed to the flourishing of catering and online product delivery services. Our team at Cuberto got to participate in the creation of a mobile application design concept for a big retailer in France. Our main goal was to show off the abundance of products. Then we had to meticulously consider the case of ordering, and its payment and delivery components. Throughout our collaboration, we offered several style options, successfully worked through the ordering case, and put together an interactive prototype for further testing."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/monmarche/screenshot/1.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/monmarche/splitshow/1.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "We moved the main functions to the lower tab bar to make it easy to use with one hand"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/monmarche/splitshow/2.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/monmarche/splitshow/3.jpg"
+        },
+        "size": "ml",
+        "caption": [
+         "Adding products makes the cart appear and you can check the total with one gesture"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/monmarche/splitshow/4.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Fresh products and",
+     {
+      "br": "desktop"
+     },
+     " swift delivery service"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Fresh products and",
+      {
+       "br": "desktop"
+      },
+      " swift delivery service"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Mon Marché is proud of the freshness of their products. For one of the main screen iterations, we made large photos demonstrating the lush abundance of fresh fruits and vegetables."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/monmarche/screenshot/2.mp4"
+    }
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/monmarche/splitshow/5.jpg"
+        },
+        "size": "sm",
+        "caption": [
+         "Usability testing showed the large photo interface to be the best"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/monmarche/splitshow/6.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     },
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/monmarche/splitshow/7.png"
+        },
+        "size": "sm",
+        "caption": [
+         "Extra special love to illustrations for screens with empty states and onboarding"
+        ]
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/monmarche/splitshow/8.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/monmarche/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/monmarche/screenshot/4.jpg"
+    }
+   }
+  ],
+  "name": "Mon Marché",
+  "title": [
+   "Home delivery",
+   {
+    "br": "desktop"
+   },
+   " of fresh fruit",
+   {
+    "br": "desktop"
+   },
+   " and vegetables"
+  ],
+  "next": "datalight",
+  "nextMedia": {
+   "type": "image",
+   "src": "/sites/cuberto/projects/covers/datalight@2x.png"
+  }
+ },
+ {
+  "slug": "datalight",
+  "metaTitle": "DataLight | Cuberto Projects",
+  "metaDescription": "Our team was assigned to find an elegant and practical solution for the brand's visual identity, drawing inspiration from the data streams of DataLight.",
+  "sections": [
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/datalight/main.jpg"
+    },
+    "lg": true
+   },
+   {
+    "type": "overview",
+    "id": "challenge",
+    "caption": {
+     "tag": "h2",
+     "content": [
+      "The challenge"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "When creating a strategy for investment products, what matters most is the essence and main message. That will become the foundation for all visual images, and it is so, so vital to get it right. DataLight is a crypto-asset data analysis platform aimed at professional investors. This tool is meant to optimize and automate investing strategies. Our task was to develop the brand identities and guidelines, and make the website design."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "video",
+     "src": "/sites/cuberto/cases/datalight/screenshot/1.mp4"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/datalight/screenshot/2.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/datalight/screenshot/3.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "Finding solutions",
+     {
+      "br": "desktop"
+     },
+     " that make sense"
+    ],
+    "divider": true,
+    "caption": {
+     "tag": "h3",
+     "content": [
+      "Finding solutions",
+      {
+       "br": "desktop"
+      },
+      " that make sense"
+     ]
+    },
+    "text": [
+     {
+      "p": [
+       "Our team was tasked with finding an elegant and sensible solution for the brand visual. We drew inspiration from the data that flows through DataLight. The platform collects tons of data about cryptographic projects, processes it, and presents it to users in an accessible format. In our pursuit of a concept, we settled on simple geometrical shapes with waves of light that represent data flow."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "splitshow",
+    "cols": [
+     {
+      "side": "right",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/datalight/splitshow/1.png"
+        },
+        "size": "sm"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/datalight/splitshow/2.jpg"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/datalight/splitshow/3.png"
+        },
+        "size": "sm"
+       }
+      ]
+     },
+     {
+      "side": "left",
+      "items": [
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/datalight/splitshow/4.png"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/datalight/splitshow/5.png"
+        },
+        "size": "ml"
+       },
+       {
+        "media": {
+         "type": "image",
+         "src": "/sites/cuberto/cases/datalight/splitshow/6.jpg"
+        },
+        "size": "ml"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/datalight/screenshot/4.jpg"
+    }
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/datalight/screenshot/5.jpg"
+    }
+   },
+   {
+    "type": "overview",
+    "header": [
+     "The logotype’s base",
+     {
+      "br": "desktop"
+     },
+     " colors were the go-to point",
+     {
+      "br": "desktop"
+     },
+     " for visualizing the graphics"
+    ]
+   },
+   {
+    "type": "preview",
+    "media": {
+     "type": "image",
+     "src": "/sites/cuberto/cases/datalight/screenshot/6.jpg"
+    }
+   }
+  ],
+  "name": "DataLight",
+  "title": [
+   "Detailed cryptocurrency",
+   {
+    "br": "desktop"
+   },
+   " market analysis"
+  ],
+  "next": "puntopago",
+  "nextMedia": {
+   "type": "video",
+   "src": "/sites/cuberto/cases/puntopago/cover.mp4"
+  }
+ }
+]
