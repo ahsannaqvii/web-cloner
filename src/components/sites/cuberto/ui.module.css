@@ -1,0 +1,266 @@
+/* ---------- Container ---------- */
+.container {
+  padding: 0 1.5rem;
+}
+
+@media (width >= 768px) {
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 12rem;
+  }
+
+  .containerLg {
+    padding: 0 24rem;
+  }
+}
+
+/* ---------- Rolling label ---------- */
+.roll {
+  position: relative;
+  z-index: 2;
+  display: block;
+  overflow: hidden;
+}
+
+.roll > span {
+  position: relative;
+  display: block;
+  transition: transform 0.8s var(--ease-out-expo);
+}
+
+.roll > span::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: block;
+  transform: scale(0.9);
+  transition: transform 0.4s;
+}
+
+@media (pointer: fine) {
+  :hover > .roll > span {
+    transform: translateY(-100%);
+  }
+
+  :hover > .roll > span::after {
+    transform: scale(1);
+  }
+}
+
+/* ---------- CtaButton ---------- */
+.cta {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  overflow: hidden;
+  padding: 3.2rem 5.6rem;
+  border-radius: 99999px;
+  font-size: 2rem;
+  line-height: 1;
+  white-space: nowrap;
+  transform: translateZ(0);
+  transition: transform 0.3s;
+}
+
+@media (width >= 768px) {
+  .cta {
+    font-size: 2.4rem;
+  }
+}
+
+@media (pointer: fine) {
+  .cta:hover {
+    transform: scaleX(1.02);
+    transition: transform 0.6s var(--ease-spring);
+  }
+}
+
+.md {
+  height: 5.8rem;
+  padding: 0 2.8rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.sm {
+  padding: 1.4rem 2rem;
+  font-size: 2rem;
+}
+
+@media (width >= 768px) {
+  .sm {
+    font-size: 2.4rem;
+  }
+}
+
+.fill {
+  color: #fff;
+  background: #000;
+  transition:
+    transform 0.3s,
+    color 0.4s,
+    background 0.4s;
+}
+
+.fill.inverse {
+  color: #000;
+  background: #fff;
+}
+
+.border {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: block;
+  border: 1px solid;
+  border-radius: 1000px;
+  pointer-events: none;
+}
+
+.ripple {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  border-radius: inherit;
+  transform: translateZ(0);
+}
+
+.fill .ripple {
+  inset: 1px;
+}
+
+.ripple span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 0 0;
+  background: currentColor;
+  transform: translateY(101%);
+  transition:
+    transform 0.5s var(--ease-ripple),
+    border-radius 0.5s var(--ease-ripple);
+}
+
+@media (pointer: fine) {
+  :hover > .ripple span {
+    border-radius: 0;
+    transform: translateY(0);
+    transition-duration: 0.5s, 0.9s;
+  }
+}
+
+/* label rolls to the colour opposite the ripple */
+.cta .roll > span {
+  transition: transform 0.8s var(--ease-out-expo);
+}
+
+.cta .roll > span::after {
+  top: 110%;
+  color: #fff;
+  transform: none;
+}
+
+.fill:not(.inverse) .roll > span::after,
+.inverse:not(.fill) .roll > span::after {
+  color: #000;
+}
+
+@media (pointer: fine) {
+  .cta:hover > .roll > span {
+    transform: translateY(-110%);
+  }
+}
+
+/* ---------- MoreButton ---------- */
+.more {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 2rem;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+.moreIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: currentColor;
+  font-size: 1.4rem;
+  line-height: 1;
+  transition:
+    opacity 0.2s,
+    transform 0.4s;
+}
+
+.moreIcon svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  filter: invert(1);
+}
+
+@media (pointer: fine) {
+  .more:hover .moreIcon {
+    transform: scale(0.95);
+    transition: transform 0.7s var(--ease-spring-soft);
+  }
+}
+
+/* ---------- RoundButton ---------- */
+.round {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  color: #fff;
+}
+
+@media (width >= 768px) {
+  .round {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+.round::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.1);
+  transition: transform 0.4s;
+}
+
+.round svg {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  transition: transform 0.4s;
+}
+
+@media (pointer: fine) {
+  .round:hover::before {
+    transform: scale(0.95);
+    transition: transform 0.6s var(--ease-spring-soft);
+  }
+
+  .round:hover svg {
+    transform: scale(0.95);
+    transition: transform 0.7s var(--ease-spring-soft);
+  }
+}

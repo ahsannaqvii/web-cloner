@@ -1,0 +1,193 @@
+.tophead {
+  position: relative;
+  padding: 12rem 0 6rem;
+}
+
+@media (width >= 768px) {
+  .tophead {
+    padding: 20rem 0 10rem;
+  }
+}
+
+.title {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+@media (width >= 768px) {
+  .title {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 9rem;
+    text-align: center;
+  }
+}
+
+.text {
+  max-width: 84rem;
+  margin: 3.2rem auto 0;
+  font-size: 2rem;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+}
+
+@media (width >= 768px) {
+  .text {
+    font-size: 2.4rem;
+    line-height: 120%;
+    text-align: center;
+  }
+}
+
+/* ---------- PreviewSection ---------- */
+.preview {
+  position: relative;
+  z-index: 1;
+}
+
+.main {
+  position: relative;
+  display: grid;
+  aspect-ratio: 355 / 400;
+  overflow: hidden;
+  border-radius: 2rem;
+  background: #000;
+  transform: translateZ(0);
+}
+
+@media (width >= 768px) {
+  .main {
+    aspect-ratio: 1920 / 1080;
+  }
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+}
+
+.media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem 3rem;
+  color: #fff;
+  background: linear-gradient(90deg, #000000b0, #0000002e);
+}
+
+@media (width >= 768px) {
+  .content {
+    padding: 6rem 16rem;
+  }
+}
+
+.info {
+  display: grid;
+  gap: 1.6rem;
+  max-width: 48.4rem;
+}
+
+.header {
+  font-size: 4.2rem;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+
+@media (width >= 768px) {
+  .header {
+    font-size: 8rem;
+    line-height: 100%;
+  }
+}
+
+.previewText {
+  font-size: 2rem;
+  line-height: 130%;
+}
+
+@media (width >= 768px) {
+  .previewText {
+    font-size: 3.2rem;
+    line-height: 120%;
+  }
+}
+
+.action {
+  position: relative;
+  z-index: 2;
+  align-self: flex-start;
+}
+
+.link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* ---------- OverviewSection ---------- */
+.overview {
+  position: relative;
+  margin: 8rem 0 4rem;
+}
+
+@media (width >= 768px) {
+  .overview {
+    margin: 12rem 0;
+  }
+
+  .grid {
+    display: flex;
+  }
+
+  .left {
+    flex: 0 0 28%;
+  }
+}
+
+.left {
+  margin: 0 0 2rem;
+}
+
+.right {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.caption {
+  font-size: 1.4rem;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .caption {
+    font-size: 1.6rem;
+  }
+}
+
+.overviewText {
+  max-width: 94%;
+  font-size: 2rem;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+
+@media (width >= 768px) {
+  .overviewText {
+    max-width: 86%;
+    font-size: 2.56rem;
+  }
+}

@@ -1,0 +1,677 @@
+/* ---------- Why (OverviewSection with tiles) ---------- */
+.why {
+  position: relative;
+  margin: 8rem 0;
+}
+
+@media (width >= 768px) {
+  .why {
+    margin: 12rem 0;
+  }
+}
+
+.topDivider {
+  margin: 0 0 2.5rem;
+  color: rgb(0 0 0 / 0.2);
+}
+
+@media (width >= 768px) {
+  .topDivider {
+    margin: 0 0 4.5rem;
+  }
+
+  .grid {
+    display: flex;
+  }
+
+  .left {
+    flex: 0 0 28%;
+  }
+}
+
+.left {
+  margin: 0 0 2rem;
+}
+
+.right {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.caption {
+  font-size: 1.4rem;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .caption {
+    font-size: 1.6rem;
+  }
+}
+
+.text {
+  max-width: 94%;
+  font-size: 2rem;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+
+@media (width >= 768px) {
+  .text {
+    max-width: 86%;
+    font-size: 2.56rem;
+  }
+}
+
+.tiles {
+  display: grid;
+  gap: 0.8rem;
+  margin: 2rem 0 0;
+}
+
+@media (width >= 768px) {
+  .tiles {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 1.6rem;
+    margin: 7.2rem 0 0;
+  }
+}
+
+.tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.2rem;
+  height: 20.8rem;
+  padding: 3rem;
+  border-radius: 2rem;
+  background: #f1f3fa;
+  transition: background 0.4s;
+}
+
+@media (width >= 768px) {
+  .tile {
+    grid-column: span 4;
+    height: 30rem;
+    padding: 4rem;
+  }
+
+  .tile:not(:has(strong)) .tileText {
+    max-width: 28rem;
+  }
+
+  .tile:nth-child(n + 4) {
+    grid-column: span 6;
+  }
+}
+
+.highlighted {
+  background: #e3f5f3;
+}
+
+.tileIcon svg {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+
+
+
+.tileText {
+  max-width: 32rem;
+  font-size: 2.4rem;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  opacity: 0.9;
+}
+
+@media (width >= 768px) {
+  .tileText {
+    font-size: 2.8rem;
+  }
+}
+
+.tileText strong {
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+@media (width >= 768px) {
+  .tileText strong {
+    font-size: 8rem;
+  }
+}
+
+.tileText small {
+  font-size: 1.4rem;
+  line-height: 110%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .tileText small {
+    font-size: 1.6rem;
+  }
+}
+
+/* ---------- Dark rounded sections (Insights + FAQ) ---------- */
+.dark {
+  position: relative;
+  color: #fff;
+}
+
+.fill {
+  position: absolute;
+  inset: 0;
+  background: #000;
+}
+
+@media (width >= 768px) {
+  .fill {
+    border-radius: 8rem 8rem 0 0;
+  }
+
+  .fillJoined {
+    bottom: -8rem;
+  }
+}
+
+.inner {
+  position: relative;
+}
+
+.insights {
+  padding: 8rem 0 0;
+}
+
+@media (width >= 768px) {
+  .insights {
+    padding: 15rem 0 0;
+  }
+}
+
+.header {
+  margin: 0 0 4rem;
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+
+@media (width >= 768px) {
+  .header {
+    margin: 0 0 12rem;
+    font-size: 8rem;
+  }
+}
+
+.insightsHead {
+  position: relative;
+}
+
+.offset {
+  margin: 0 0 4rem;
+}
+
+@media (width >= 768px) {
+  .offset {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+  }
+}
+
+.entries {
+  display: grid;
+  gap: 6rem;
+}
+
+@media (width >= 768px) {
+  .entries {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+.entry {
+  display: block;
+}
+
+.thumb {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 2rem;
+  transform: translateZ(0);
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.01);
+}
+
+@media (pointer: fine) {
+  .thumb,
+  .thumb img {
+    transition: transform 0.4s;
+  }
+
+  .entry:hover .thumb {
+    transform: scale(0.98);
+  }
+
+  .entry:hover .thumb img {
+    transform: scale(1.02);
+  }
+}
+
+.category {
+  display: block;
+  margin: 2rem 0 0;
+  font-size: 1.6rem;
+  line-height: 130%;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+@media (width >= 768px) {
+  .category {
+    margin-top: 2.4rem;
+  }
+}
+
+.entryTitle {
+  display: block;
+  margin: 0.8rem 0 0;
+  font-size: 2.4rem;
+  line-height: 140%;
+}
+
+.date {
+  display: block;
+  margin: 0.8rem 0 0;
+  font-size: 1.6rem;
+  line-height: 130%;
+  opacity: 0.5;
+}
+
+/* ---------- FAQ ---------- */
+.faq {
+  padding: 8rem 0 0;
+}
+
+@media (width >= 768px) {
+  .faq {
+    padding-top: 15rem;
+  }
+}
+
+.faq .fill {
+  border-radius: 0;
+}
+
+.faqDivider {
+  position: relative;
+  z-index: 2;
+  color: rgb(255 255 255 / 0.2);
+}
+
+.item {
+  position: relative;
+  padding: 4rem 0;
+}
+
+.item::details-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  align-items: start;
+  opacity: 0;
+  pointer-events: none;
+  content-visibility: visible;
+  transition:
+    grid-template-rows 0.3s ease-out,
+    opacity 0.4s ease-out,
+    content-visibility 0.3s allow-discrete;
+}
+
+.item[open]::details-content {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6rem;
+  font-size: 2.4rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  list-style: none;
+  cursor: pointer;
+}
+
+.toggle::-webkit-details-marker {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .toggle {
+    align-items: center;
+  }
+}
+
+.toggle::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.item[open] .toggle::before {
+  display: none;
+}
+
+.arr {
+  position: relative;
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem 0 0;
+  transition: transform 0.5s;
+}
+
+@media (width >= 768px) {
+  .arr {
+    margin: 0;
+  }
+}
+
+.item[open] .arr {
+  transform: rotate(135deg);
+}
+
+.arr::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: currentColor;
+}
+
+.arr::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 1px);
+  width: 2px;
+  background: currentColor;
+}
+
+.itemContent {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.itemText {
+  padding-top: 1.6rem;
+  color: rgb(255 255 255 / 0.7);
+  font-size: 1.8rem;
+  line-height: 150%;
+}
+
+@media (width >= 768px) {
+  .itemText {
+    padding-top: 4rem;
+  }
+}
+
+.itemText p + p {
+  margin-top: 1em;
+}
+
+/* ---------- OutroSection ---------- */
+.outro {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 55.4rem;
+  overflow: hidden;
+  color: #fff;
+  background: #000;
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .outro {
+    height: 69.2rem;
+  }
+}
+
+.outroBg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.outroBg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.outroContent {
+  position: relative;
+}
+
+.outroHeader {
+  font-size: 5rem;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+}
+
+@media (width >= 768px) {
+  .outroHeader {
+    max-width: 65rem;
+    margin: 0 auto;
+    font-size: 8rem;
+  }
+}
+
+.outroText {
+  margin: 3.2rem auto 0;
+  font-size: 2rem;
+  line-height: 130%;
+}
+
+@media (width >= 768px) {
+  .outroText {
+    max-width: 65rem;
+    font-size: 2.4rem;
+    line-height: 140%;
+  }
+}
+
+.outroAction {
+  margin: 3.2rem 0 0;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  position: relative;
+  padding: 6rem 0;
+  overflow: hidden;
+  color: #fff;
+  background: #000;
+}
+
+@media (width >= 768px) {
+  .footer {
+    padding: 12rem 0;
+  }
+}
+
+.footerGrid {
+  display: grid;
+  gap: 6rem;
+}
+
+@media (width >= 768px) {
+  .footerGrid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+.locations {
+  display: grid;
+  gap: 6rem;
+}
+
+@media (width >= 768px) {
+  .locations {
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 10rem;
+  }
+}
+
+.locationAction {
+  margin: 0 0 2rem;
+}
+
+@media (width >= 768px) {
+  .locationAction {
+    margin-bottom: 2.4rem;
+  }
+}
+
+.locationCaption {
+  display: inline;
+  margin: 0 1rem 0 0;
+  font-size: 1.6rem;
+  line-height: 130%;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.locationAddress {
+  display: inline;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+@media (width >= 768px) {
+  .locationAddress {
+    line-height: 150%;
+  }
+}
+
+.navs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (width >= 768px) {
+  .navs {
+    grid-template-columns: repeat(2, auto);
+    justify-content: end;
+    gap: 0 6.4rem;
+    text-align: right;
+  }
+}
+
+.nav {
+  padding: 1rem 0;
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+@media (width >= 768px) {
+  .nav {
+    padding: 1.2rem 0;
+    font-size: 2.4rem;
+  }
+}
+
+
+
+.bgrid {
+  display: grid;
+  gap: 6rem;
+  margin: 6rem 0 0;
+}
+
+@media (width >= 768px) {
+  .bgrid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6.7rem 0 0;
+  }
+}
+
+.legal {
+  order: 1;
+}
+
+@media (width >= 768px) {
+  .legal {
+    order: initial;
+  }
+}
+
+.legalLink {
+  font-size: 1.4rem;
+  line-height: 110%;
+  transition: color 0.3s;
+}
+
+@media (width >= 768px) {
+  .legalLink {
+    font-size: 1.6rem;
+    line-height: 130%;
+  }
+}
+
+
+
+.copy {
+  display: inline-block;
+  margin: 0 0 0 2.4rem;
+  font-size: 1.4rem;
+  line-height: 110%;
+  opacity: 0.5;
+}
+
+@media (width >= 768px) {
+  .copy {
+    font-size: 1.6rem;
+    line-height: 130%;
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (width >= 768px) {
+  .socials {
+    gap: 2.4rem;
+  }
+}
